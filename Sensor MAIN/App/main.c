@@ -1,9 +1,9 @@
-/* Sensor_MAIN
+/** Sensor_MAIN
   *****************************************************************************
   * @file    main.c
-  * @author  Michelangelo Guaitolini
-  * @version v1.0
-  * @date    2023
+  * @author  Lorenzo Rettori
+  * @version v2.0
+  * @date    2024
   * @brief   This formware provides the firmware to collect inertial data from
   *          a LSM9DS1 device, then send the data to a Bluetooth module using
   *          a serial port.
@@ -12,6 +12,10 @@
   *          components:
   *             - STM32F10x board.
   *             - LSM9DS1 inertial measurement unit
+  *
+  *          Main modifications from version 1.0:
+  *          - 
+
   *****************************************************************************
   * THE PRESENT FIRMWARE AIMS AT THE MANAGEMENT AND COORDINATION OF THE WIRELESS
   * SENSOR NETWORK OF HANDi GLOVE DEVICE. DIFFERENT WORKING MODES ARE 
@@ -58,13 +62,18 @@
 // - Left SensFoot  : 2
 // - Right SensFoot : 3
 //
-uint8_t DEVICE_ADDRESS = (uint8_t) '0';
+//uint8_t DEVICE_ADDRESS = (uint8_t) '0';
+//uint8_t DEVICE_ADDRESS = (uint8_t) '1';
+//uint8_t DEVICE_ADDRESS = (uint8_t) '2';
+uint8_t DEVICE_ADDRESS = (uint8_t) '3';
 
 // data_len is initialized for SensHand devices, that needs longer arrays. Its
 // value is changed in main() if DEVICE_ADDRESS is 2 or 3, so if the application
 // is for a SensFoot device.
 int data_len = 36;
 volatile uint8_t FINGERS = 1;
+
+//static uint16_t counter = 0; /////
 
 // Private variables ----------------------------------------------------------
 // Sampling frequency is needed to determine how often the sensor will produce a
@@ -118,6 +127,8 @@ int count_start_up = 0;
 
 // Sensor data to be sent
 uint8_t vec[38];
+//uint8_t vec[36];
+//uint8_t vec[37];
 
 // CAN Bus variables ----------------------------------------------------------
 // CAN module will be necessary for SensHand device as it handles communitation
@@ -148,7 +159,7 @@ CanRxMsg RxMessage;
 
 u8 count_finger    = 0;                 // [CHECK]
 u8 f1_data[18];
-u8 f2_data[18];;
+u8 f2_data[18];
 
 // ____________________________________________________________________________
 // ____________________________________________________________________________
@@ -261,12 +272,16 @@ void UART_Config(void)
 
   USART_Cmd(BLE_USART, DISABLE);
   USART_DeInit(BLE_USART);
-  USART_InitStr.USART_BaudRate            = 460800;   
+//  USART_InitStr.USART_BaudRate            = 460800;
+  USART_InitStr.USART_BaudRate            = 38400;
+//  USART_InitStr.USART_BaudRate            = 19200;
+//  USART_InitStr.USART_BaudRate            = 9600;
   USART_InitStr.USART_WordLength          = USART_WordLength_8b;                       
   USART_InitStr.USART_StopBits            = USART_StopBits_1;                            
   USART_InitStr.USART_Parity              = USART_Parity_No;                  
   USART_InitStr.USART_Mode                = USART_Mode_Tx | USART_Mode_Rx; 
   USART_InitStr.USART_HardwareFlowControl = USART_HardwareFlowControl_RTS_CTS;
+//  USART_InitStr.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
   USART_Init(BLE_USART, &USART_InitStr);
   USART_Cmd(BLE_USART, ENABLE);
   USART_ITConfig(BLE_USART,USART_IT_RXNE, ENABLE);
@@ -391,7 +406,7 @@ void NVIC_Config(void)
 //              - Measurement range (FS) = ± 8 g
 //      - Gyroscope : readings are in dps.
 //              - Sensitivity (Sens)     = 70 mdps/LSB
-//              - Outout data rate (ODR) = 952 Hz (normal mode)
+//              - Output data rate (ODR) = 952 Hz (normal mode)
 //              - Measurement range (FS) = ± 2000 dps
 void Sensor_Init(void)
 {
@@ -470,54 +485,129 @@ void GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
 // Function that reads data from IMU sensors. Data are stored in a vector and
 // sent through a serial port (USART2).
 // This function is called in the timer_handler so there is a reading available
-// at every timer tick (namely, 9ms).
+// at every timer tick (namely, 9ms). <- [NOT REALLY]
 void Read_SensorData(void) {
   // Sensor Data --------------------------------------------------------------
   LSM_DataProcess(&m_data);
   
+//  // Sensor 1 : IMU on the main board. It is the only one present on SensFoot
+//  // devices and it is the wrist sensor for SensHand devices.
+//  vec[0]  = (uint8_t)(((int16_t)m_data.sAcc[0]));
+//  vec[1]  = (uint8_t)(((int16_t)m_data.sAcc[0])>>8);
+//  vec[2]  = (uint8_t)(((int16_t)m_data.sAcc[1]));
+//  vec[3]  = (uint8_t)(((int16_t)m_data.sAcc[1])>>8);
+//  vec[4]  = (uint8_t)(((int16_t)m_data.sAcc[2]));
+//  vec[5]  = (uint8_t)(((int16_t)m_data.sAcc[2])>>8);
+//  vec[6]  = (uint8_t)(((int16_t)m_data.sGyr[0]));
+//  vec[7]  = (uint8_t)(((int16_t)m_data.sGyr[0])>>8);
+//  vec[8]  = (uint8_t)(((int16_t)m_data.sGyr[1]));
+//  vec[9]  = (uint8_t)(((int16_t)m_data.sGyr[1])>>8);
+//  vec[10] = (uint8_t)(((int16_t)m_data.sGyr[2]));
+//  vec[11] = (uint8_t)(((int16_t)m_data.sGyr[2])>>8);
+//  
+//  // Sensor 2 : available only for SensHand devices, it is the IMU on the Thumb.
+//  vec[12] = f1_data[0];
+//  vec[13] = f1_data[1];
+//  vec[14] = f1_data[2];
+//  vec[15] = f1_data[3];
+//  vec[16] = f1_data[4];
+//  vec[17] = f1_data[5];
+//  vec[18] = f1_data[6];
+//  vec[19] = f1_data[7];
+//  vec[20] = f1_data[8];
+//  vec[21] = f1_data[9];
+//  vec[22] = f1_data[10];
+//  vec[23] = f1_data[11];
+//  
+//  // Sensor 3 : available only for SensHand devices, it is the IMU on the Index
+//  // finger. 
+//  vec[24] = f2_data[0];
+//  vec[25] = f2_data[1];
+//  vec[26] = f2_data[2];
+//  vec[27] = f2_data[3];
+//  vec[28] = f2_data[4];
+//  vec[29] = f2_data[5];
+//  vec[30] = f2_data[6];
+//  vec[31] = f2_data[7];
+//  vec[32] = f2_data[8];
+//  vec[33] = f2_data[9];
+//  vec[34] = f2_data[10];
+//  vec[35] = f2_data[11];
+  
+//    // Versione mista contatore/costante
+////  for (uint8_t i = 0; i < (data_len / 2); i++) 
+//  for (uint8_t i = 0; i < (6); i++) // Versione con rampe solo nei sensori polsi, e il resto dei dati li prelevo dalle dita
+//  {
+//    if ((i-1) % 3 == 0) 
+//    {
+//      //      vec[2 * i] = (uint8_t)(counter & 0x00FF);
+//      //      vec[2 * i + 1] = (uint8_t)((counter & 0xFF00) >> 8);
+//      // Versione con start e stop byte
+//      vec[2 * i + 1] = (uint8_t)(counter & 0x00FF);
+//      vec[2 * i + 2] = (uint8_t)((counter & 0xFF00) >> 8);
+//    }
+//    else
+//    {
+//      //      vec[2 * i] = i * 10;
+//      //      vec[2 * i + 1] = i * 10;
+//      // Versione con start e stop byte
+//      vec[2 * i + 1] = i * 10;
+//      vec[2 * i + 2] = i * 10;
+//    }
+//  }
+  
+  // Versione con start e stop bytes
+  vec[0] = (uint8_t) 'D';
   // Sensor 1 : IMU on the main board. It is the only one present on SensFoot
   // devices and it is the wrist sensor for SensHand devices.
-  vec[0]  = (uint8_t)(((int16_t)m_data.sAcc[0]));
-  vec[1]  = (uint8_t)(((int16_t)m_data.sAcc[0])>>8);
-  vec[2]  = (uint8_t)(((int16_t)m_data.sAcc[1]));
-  vec[3]  = (uint8_t)(((int16_t)m_data.sAcc[1])>>8);
-  vec[4]  = (uint8_t)(((int16_t)m_data.sAcc[2]));
-  vec[5]  = (uint8_t)(((int16_t)m_data.sAcc[2])>>8);
-  vec[6]  = (uint8_t)(((int16_t)m_data.sGyr[0]));
-  vec[7]  = (uint8_t)(((int16_t)m_data.sGyr[0])>>8);
-  vec[8]  = (uint8_t)(((int16_t)m_data.sGyr[1]));
-  vec[9]  = (uint8_t)(((int16_t)m_data.sGyr[1])>>8);
-  vec[10] = (uint8_t)(((int16_t)m_data.sGyr[2]));
-  vec[11] = (uint8_t)(((int16_t)m_data.sGyr[2])>>8);
+  vec[1]  = (uint8_t)(((int16_t)m_data.sAcc[0]));
+  vec[2]  = (uint8_t)(((int16_t)m_data.sAcc[0])>>8);
+  vec[3]  = (uint8_t)(((int16_t)m_data.sAcc[1]));
+  vec[4]  = (uint8_t)(((int16_t)m_data.sAcc[1])>>8);
+  vec[5]  = (uint8_t)(((int16_t)m_data.sAcc[2]));
+  vec[6]  = (uint8_t)(((int16_t)m_data.sAcc[2])>>8);
+  vec[7]  = (uint8_t)(((int16_t)m_data.sGyr[0]));
+  vec[8]  = (uint8_t)(((int16_t)m_data.sGyr[0])>>8);
+  vec[9]  = (uint8_t)(((int16_t)m_data.sGyr[1]));
+  vec[10]  = (uint8_t)(((int16_t)m_data.sGyr[1])>>8);
+  vec[11] = (uint8_t)(((int16_t)m_data.sGyr[2]));
+  vec[12] = (uint8_t)(((int16_t)m_data.sGyr[2])>>8);
   
   // Sensor 2 : available only for SensHand devices, it is the IMU on the Thumb.
-  vec[12] = f1_data[0];
-  vec[13] = f1_data[1];
-  vec[14] = f1_data[2];
-  vec[15] = f1_data[3];
-  vec[16] = f1_data[4];
-  vec[17] = f1_data[5];
-  vec[18] = f1_data[6];
-  vec[19] = f1_data[7];
-  vec[20] = f1_data[8];
-  vec[21] = f1_data[9];
-  vec[22] = f1_data[10];
-  vec[23] = f1_data[11];
+  vec[13] = f1_data[0];
+  vec[14] = f1_data[1];
+  vec[15] = f1_data[2];
+  vec[16] = f1_data[3];
+  vec[17] = f1_data[4];
+  vec[18] = f1_data[5];
+  vec[19] = f1_data[6];
+  vec[20] = f1_data[7];
+  vec[21] = f1_data[8];
+  vec[22] = f1_data[9];
+  vec[23] = f1_data[10];
+  vec[24] = f1_data[11];
   
   // Sensor 3 : available only for SensHand devices, it is the IMU on the Index
   // finger. 
-  vec[24] = f2_data[0];
-  vec[25] = f2_data[1];
-  vec[26] = f2_data[2];
-  vec[27] = f2_data[3];
-  vec[28] = f2_data[4];
-  vec[29] = f2_data[5];
-  vec[30] = f2_data[6];
-  vec[31] = f2_data[7];
-  vec[32] = f2_data[8];
-  vec[33] = f2_data[9];
-  vec[34] = f2_data[10];
-  vec[35] = f2_data[11];
+  vec[25] = f2_data[0];
+  vec[26] = f2_data[1];
+  vec[27] = f2_data[2];
+  vec[28] = f2_data[3];
+  vec[29] = f2_data[4];
+  vec[30] = f2_data[5];
+  vec[31] = f2_data[6];
+  vec[32] = f2_data[7];
+  vec[33] = f2_data[8];
+  vec[34] = f2_data[9];
+  vec[35] = f2_data[10];
+  vec[36] = f2_data[11];
+
+  vec[data_len + 1] = (uint8_t) 'L';
+  
+//  if (counter < 65535)
+//counter++;
+//else
+//counter = 0;    
   
   // --------------------------------------------------------------------------
   // Send to serial port : data are then sent through the UART to the Bluetooth
@@ -527,17 +617,20 @@ void Read_SensorData(void) {
   // elements of vec are sent.
   // If the trasmission is complete, "flag" is toggled, so the whole procedure
   // can go on.
-  for(int i = 0; i < data_len; i++) {
+//  for(int i = 0; i < data_len; i++) {
+for(int i = 0; i < data_len + 2; i++) { // versione con start e stop byte
+//    for(int i = 0; i < data_len + 1; i++) {
     USART_SendData(USART2 , vec[i]);
     while(USART_GetFlagStatus(USART2 , USART_FLAG_TXE) == RESET);
   }
+  
   if (USART_GetFlagStatus(USART2, USART_FLAG_TXE) != RESET) {
     flag = 1;
   }
   
   // While the Micro is streaming, the Blue LED blinks with 1 HZ frequency.
   TIM_LED++;
-  if (TIM_LED == 111) {
+  if (TIM_LED == 50) {
     GPIO_TogglePin(LED_PORT, LED_PIN);
     TIM_LED = 0;
   }
@@ -616,7 +709,7 @@ void TIM2_IntHandler(void)
         // handled. The USART is read and if a byte sent from the BLE Module is
         // present, it activated the event handler, allowing to creat the final
         // data array and send it back to the BLE Module.
-        REC  = USART_ReceiveData(USART2);
+//        REC  = USART_ReceiveData(USART2); ///// forse non serve
       }
     }
   }
@@ -705,8 +798,21 @@ void CAN_IntHandler(void)
 // the received bit, creating the array to be sent and sending it.
 void USART_IntHandler(void)
 {
-  USART_ClearITPendingBit(USART2, USART_IT_RXNE);
-  Read_SensorData();
+  ///// MODIFICA
+  uint16_t receivedData = USART_ReceiveData(USART2);
+  
+  if ((uint8_t)(receivedData & (uint16_t)0x00FF) == 'E')
+  {
+    USART_ClearITPendingBit(USART2, USART_IT_RXNE);
+    Read_SensorData();
+  }
+  /////
+  
+  
+  ///// Originale:
+//  USART_ClearITPendingBit(USART2, USART_IT_RXNE);
+//  Read_SensorData();
+  
 }
 
 // ____________________________________________________________________________

@@ -3,9 +3,9 @@
  * BLUETOOTH - MULTILINK PERIPHERAL
  ******************************************************************************
  * @file        main.c
- * @author      Michelangelo Guaitolini
- * @version     v1.0
- * @date        2023
+ * @author      Lorenzo Rettori
+ * @version     v2.0
+ * @date        2024
  * @brief       Main program body.
  *              This file contains the source code for a sample application that 
  *              uses the Nordic UART service to connect to a central unit 
@@ -20,6 +20,18 @@
  *                      - SensHand: streaming data from 3 IMUs.
  *                      - SensFoot: streaming data from 1 IMU.
  *
+ *              Main modifications from version 1.0:
+ *              - Decreased the baud rate of the serial connection with the 
+ *                microcontroller
+ *              - Decreased the sampling frequency (from 100 Hz to 50 Hz)
+ *              - Increased the size of uart buffers
+ *              - Modified the management of the data request from the 
+ *                microcontroller, and forwarding via Bluetooth to the dongle.
+ *                Now it asks for data in the timer interrupt, and then read it
+ *                and send via Bluetooth in the serial interrupt
+ *              - Implemented an integrity check mechanism for the data arriving
+ *                from the microcontroller
+ * 
  ******************************************************************************
  * Copyright (c) 2014 - 2021, Nordic Semiconductor ASA
  *
@@ -121,7 +133,7 @@
 
 // DEVICE_NAME and DEVICE_ADDRESS need to be changed MANUALLY to program 
 // different devices.
-// The whole nectowrk is designed to use 4 devices so the DEVICE_NAME is
+// The whole network is designed to use 4 devices so the DEVICE_NAME is
 // expected to be Nordic_UART_00, Nordic_UART_01, Nordic_UART_02, Nordic_UART_03
 // and these names are those expected by the central unit to detect the
 // peripherals and connect to them.
@@ -135,21 +147,44 @@
 //      - Device 2 : Left SensFoot device, 1 IMU
 //      - Device 3 : Right SensFoot device, 1 IMU
 //
-#define DEVICE_NAME                     "Nordic_UART_03"                        // Name of device and Address. Will be included in the advertising data.
-uint8_t DEVICE_ADDRESS =                (uint8_t) '3';                          // change this parameters MANUALLY if you want to program different devices.
+//#define DEVICE_NAME                     "Nordic_UART_00"                        // Name of device and Address. Will be included in the advertising data.
+//uint8_t DEVICE_ADDRESS =                (uint8_t) '0';                          // change this parameters MANUALLY if you want to program different devices.
+#define DEVICE_NAME                     "Nordic_UART_01"                        // Name of device and Address. Will be included in the advertising data.
+uint8_t DEVICE_ADDRESS =                (uint8_t) '1';                          // change this parameters MANUALLY if you want to program different devices.
+//#define DEVICE_NAME                     "Nordic_UART_02"                        // Name of device and Address. Will be included in the advertising data.
+//uint8_t DEVICE_ADDRESS =                (uint8_t) '2';                          // change this parameters MANUALLY if you want to program different devices.
+//#define DEVICE_NAME                     "Nordic_UART_03"                        // Name of device and Address. Will be included in the advertising data.
+//uint8_t DEVICE_ADDRESS =                (uint8_t) '3';                          // change this parameters MANUALLY if you want to program different devices.
 
 // Each IMU has an 3D accelerometer and a 3D gyroscope, represented as uint16_t,
 // so each reading provides 3 axes * 2 sensors * 2 = 12 bytes
-// 
-//#define data_length_H   36             
-//#define data_length_F   12               
-//#define store_sz        6000
 
 uint32_t C = 0;
 uint8_t pvar_1[37];             // Array to send sensor data + DEVICE_ADDRESS             
 uint8_t pvar_2[38];             // Array to store incoming sensor data
+//uint8_t pvar_2[36];             // Array to store incoming sensor data
+uint8_t pvar_last[38];          // Array to store last packet sent over bluetooth
+uint8_t pvar_2Temp[38];
+static uint16_t index2 = 0; /////
+int index3 = 0;
 
-int index = 0;
+// Start and stop bytes
+uint8_t startByte = 'D';
+uint8_t stopByte = 'L';
+
+//static uint8_t byte_rec = 0;
+
+//int index = 0;
+//static int counter0 = 0;
+//static int counter1 = 0;
+//static uint16_t counter = 0;
+
+//static uint8_t data_array[37]; /////
+//static uint8_t data_array2[37]; /////
+//static uint16_t index2 = 0; /////
+//uint32_t err_code; /////
+
+volatile bool flag_uart = false;
 
 // Expected data length is automatically set to 37, which is the one needed for
 // SensHand devices (DEVICE_ADDRESS + 3 IMUs (12 bytes each) = 37 bytes)
@@ -157,12 +192,6 @@ uint16_t data_len = 37;
 
 uint16_t DATA = 1000;
 uint8_t bytes[sizeof(float)];
-
-// If the device to be programmed is a SensFoot (device 2 or 3)  it only needs 
-// for DEVICE ADDRESS + 1 IMU = 13 bytes
-#if DEVICE_ADDRESS == '2' || DEVICE_ADDRESS == '3'
-  uint16_t data_len = 13;
-#endif
 
 #define MIC_SERVICE_UUID_TYPE           BLE_UUID_TYPE_VENDOR_BEGIN              // UUID type for the Nordic UART Service (vendor specific).
 
@@ -184,8 +213,8 @@ uint8_t bytes[sizeof(float)];
 
 #define DEAD_BEEF                       0xDEADBEEF                              // Value used as error code on stack dump, can be used to identify stack location on stack unwind.
 
-#define UART_TX_BUF_SIZE                256                                     // UART TX buffer size.
-#define UART_RX_BUF_SIZE                256                                     // UART RX buffer size.
+#define UART_TX_BUF_SIZE                2048                                     // UART TX buffer size.
+#define UART_RX_BUF_SIZE                2048                                     // UART RX buffer size.
 
 //BLE Communication ___________________________________________________________
 BLE_MIC_DEF(m_mic, NRF_SDH_BLE_TOTAL_LINK_COUNT);                               // BLE MIC service instance.
@@ -202,13 +231,16 @@ static ble_uuid_t m_adv_uuids[] = {{BLE_UUID_MIC_SERVICE,                       
 // This parameter is needed to correctly process incoming data.
 bool next = false;
 
+int aTimer = 0;
+
+
 // CUSTOM LED and Connection adv
 bool CONN = false;
 #define LED_RED 4
 
 // TIMER ______________________________________________________________________
-// Timer is set with a sampling frequency of 9ms (~111 Hz)
-#define TIM_INTERVAL    APP_TIMER_TICKS(9)
+// Timer is set with a sampling frequency of 20ms (50 Hz)
+#define TIM_INTERVAL    APP_TIMER_TICKS(20) // 50 Hz
 APP_TIMER_DEF(m_app_timer_id);
 
 // ____________________________________________________________________________
@@ -311,14 +343,15 @@ static void mic_data_handler(ble_mic_evt_t * p_evt)
     {
       while (app_uart_put('\n') == NRF_ERROR_BUSY);
     }
-    // printf("ciao \r\n");
+//     printf("ciao \r\n");
   }
-  else if (p_evt->type == BLE_MIC_EVT_RX_DATA) {
-    for (uint32_t i = 0; i < p_evt->params.rx_data.length; i++)
-    {
-      // p_evt->params.rx_data.p_data[i];
-    }
-  }
+  
+//  else if (p_evt->type == BLE_MIC_EVT_RX_DATA) {
+//    for (uint32_t i = 0; i < p_evt->params.rx_data.length; i++)
+//    {
+//      // p_evt->params.rx_data.p_data[i];
+//    }
+//  }
 }
 /**@snippet [Handling the data received over BLE] */
 
@@ -455,31 +488,56 @@ static void on_adv_evt(ble_adv_evt_t ble_adv_evt)
 /**@brief Send to central                                                       
  * 
  */
-void send_to_central()
+void request_data_from_sensors()
 {
-  uint32_t      err_code_BL;
-  
-  // Send a byte to the sensor module to ask for data through the UART
+  // Sending an E from UART to ask data from the sensors
   app_uart_put('E');
-
-  // Read UART to get sensor data
-  for (uint32_t i = 0; i < 36; i++) {
-    app_uart_get(&pvar_2[i]);
-  }
-  
-  // --------------------------------------------------------------------------
-  // Send data over BLE
-  pvar_1[0]  = DEVICE_ADDRESS;
-  
-  for (uint32_t i = 0; i < 36; i++) {
-    pvar_1[i + 1] = *(uint8_t*) &pvar_2[i];
-  }
-  do {
-    err_code_BL = ble_mic_data_send(&m_mic, pvar_1, &data_len, m_conn_handle);
-  } while (err_code_BL == NRF_ERROR_RESOURCES && next == true);
-  next = false;
-  // -------------------------------------------------------------------------
 }
+
+//void send_to_central()
+//// For debug - sending a counter and stable data to check that every packet is
+//// received correctly by the dongle
+//{
+//  uint32_t      err_code_BL;
+//  
+//  // Send a byte to the sensor module to ask for data through the UART
+//  app_uart_put('E');
+//
+//  // Read UART to get sensor data
+//  for (uint32_t i = 0; i < 36; i++) {
+//    app_uart_get(&pvar_2[i]);
+//  }
+//  
+//  // --------------------------------------------------------------------------
+//  // Send data over BLE
+//  pvar_1[0]  = DEVICE_ADDRESS;
+//  
+//  // Versione mista contatore/costante
+//  for (uint8_t i = 0; i < 18; i++) 
+//  {
+//    if ((i-1) % 3 == 0) 
+//    {
+//      pvar_1[2 * i + 1] = (uint8_t)(counter & 0x00FF);
+//      pvar_1[2 * i + 2] = (uint8_t)((counter & 0xFF00) >> 8);
+//    }
+//    else
+//    {
+//      pvar_1[2 * i + 1] = i * 10;
+//      pvar_1[2 * i + 2] = i * 10;
+//    }
+//  }
+//  
+//if (counter < 65535)
+//counter+;
+//else
+//counter = 0;
+//  
+//  do {
+//    err_code_BL = ble_mic_data_send(&m_mic, pvar_1, &data_len, m_conn_handle);
+//  } while (err_code_BL == NRF_ERROR_RESOURCES && next == true);
+//  next = false;
+//  // -------------------------------------------------------------------------
+//}
 
 // ____________________________________________________________________________
 /**@brief Function for handling BLE events.
@@ -670,9 +728,83 @@ void bsp_event_handler(bsp_event_t event)
 /**@snippet [Handling the data received over UART] */
 void uart_event_handle(app_uart_evt_t * p_event)
 {  
+
+  uint32_t err_code; 
+ 
   switch (p_event->evt_type)
   {
   case APP_UART_DATA_READY:
+    
+    UNUSED_VARIABLE(app_uart_get(&pvar_2[index2]));
+    index2++;
+    
+    if (index2 == data_len + 1)
+    {
+      if (pvar_2[0] != startByte || pvar_2[data_len] != stopByte)
+      {
+        // Last message corrupted, then send the last correct one and restore 
+        // the correct order of future messages
+//        uint8_t pvar_2Temp[38];
+        for (int i = 0; i < data_len - 1; i++)
+        {
+          pvar_1[i + 1] = pvar_last[i + 1];
+          pvar_2Temp[i] = pvar_2[i];
+        }
+        pvar_2Temp[data_len - 1] = pvar_2[data_len - 1];
+        pvar_2Temp[data_len] = pvar_2[data_len];
+        
+        // Find the last stop byte acquired, then start the new word with the next byte
+        index3 = data_len;
+        bool flagStopByteFound = false;
+        while (index3 > 0 && flagStopByteFound == false)
+        {
+          index3--;
+          if (pvar_2Temp[index3] == stopByte)
+            flagStopByteFound = true;
+        }
+        
+        if (flagStopByteFound)
+        {
+          for (int i = 0; i < (data_len - index3); i++)
+          {
+            pvar_2[i] = pvar_2Temp[index3 + 1 + i];
+            index2 = i + 1;
+          }
+        }
+        else
+          index2 = 0;
+
+      }
+      else {
+        // Correctly received last message, then update pvar_last
+        for (int i = 0; i < data_len + 1;i++)
+        {
+          pvar_last[i] = pvar_2[i];
+        }
+        index2 = 0;
+      }
+      
+      do
+      {
+        uint16_t length = data_len;
+        pvar_1[0] = DEVICE_ADDRESS;
+        err_code = ble_mic_data_send(&m_mic, pvar_1, &length, m_conn_handle);
+        if ((err_code != NRF_ERROR_INVALID_STATE) &&
+            (err_code != NRF_ERROR_RESOURCES) &&
+              (err_code != NRF_ERROR_NOT_FOUND))
+        {
+          APP_ERROR_CHECK(err_code);
+        }
+      } while (err_code == NRF_ERROR_RESOURCES);
+      
+//      index2 = 0;
+    }
+    
+    else if (index2 > 1)
+    {
+      pvar_1[index2 - 1] = pvar_2[index2 - 1];
+    }
+
     break;
   
   case APP_UART_COMMUNICATION_ERROR:
@@ -706,12 +838,19 @@ static void uart_init(void)
     .tx_pin_no    = TX_PIN_NUMBER,
     .rts_pin_no   = RTS_PIN_NUMBER,
     .cts_pin_no   = CTS_PIN_NUMBER,
-    .flow_control = APP_UART_FLOW_CONTROL_DISABLED,                            
+//    .flow_control = APP_UART_FLOW_CONTROL_DISABLED,                            
+    .flow_control = APP_UART_FLOW_CONTROL_ENABLED,  
     .use_parity   = false,
 #if defined (UART_PRESENT)
-    .baud_rate    = NRF_UART_BAUDRATE_460800                                  
+//    .baud_rate    = NRF_UART_BAUDRATE_460800                                  
+    .baud_rate    = NRF_UART_BAUDRATE_38400  
+//    .baud_rate    = NRF_UART_BAUDRATE_19200  
+//      .baud_rate    = NRF_UART_BAUDRATE_9600  
 #else
-      .baud_rate  = NRF_UARTE_BAUDRATE_460800                                 
+//      .baud_rate  = NRF_UARTE_BAUDRATE_460800                                   
+      .baud_rate  = NRF_UARTE_BAUDRATE_38400   
+//      .baud_rate  = NRF_UARTE_BAUDRATE_19200
+//        .baud_rate  = NRF_UARTE_BAUDRATE_9600
 #endif
   };
   APP_UART_FIFO_INIT(&comm_params,
@@ -822,16 +961,27 @@ static void lfclk_config(void)
 int TIM_LED = 0;
 static void app_timer_handler(void * p_context)
 {
-  bsp_board_led_invert(BSP_BOARD_LED_3);
+//  bsp_board_led_invert(BSP_BOARD_LED_3);
   // If sensor is connected, red LED should blink with 1Hz frequency.
   if (CONN) {
     TIM_LED++;
-    if (TIM_LED == 111) {
+    if (TIM_LED == 50) {
       nrf_gpio_pin_toggle(LED_RED);
+      bsp_board_led_invert(BSP_BOARD_LED_1);
       TIM_LED = 0;
     }
   }
-  send_to_central();
+  bsp_board_led_invert(BSP_BOARD_LED_1);
+//  send_to_central();
+  
+  
+//  while (flag_uart)
+//  {
+//    aTimer = aTimer + 1;
+//  }
+  request_data_from_sensors(); /////
+//  flag_uart = true;
+  
 }
 
 // ____________________________________________________________________________
@@ -871,6 +1021,12 @@ int main(void)
   services_init();
   advertising_init();
   conn_params_init();
+  
+  
+  if (DEVICE_ADDRESS == '2' || DEVICE_ADDRESS == '3') {
+    data_len = 13;
+  } 
+  
   
   // Start execution.
   advertising_start();

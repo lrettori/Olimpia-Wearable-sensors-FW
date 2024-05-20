@@ -1,9 +1,9 @@
 /* Sensor_FIN
  ******************************************************************************
  * @file    main.c
- * @author  Michelangelo Guaitolini
- * @version v1.0.0
- * @date    2023
+ * @author  Lorenzo Rettori
+ * @version v2.0
+ * @date    2024
  * @brief   This formware provides the firmware to collect inertial data from
  *          a LSM9DS1 device, then send the data to main sensor module using CAN
  *          BUS communication.
@@ -48,15 +48,18 @@
 // has to manually select the correct address of the CAN BUS, while everything
 // else is the same for both cases.
 
-#define FINGER 0x01                             // Thumb
-//#define FINGER 0x02                             // Index
+//#define FINGER 0x01                             // Thumb
+#define FINGER 0x02                             // Index
 
 // TIMER variables ------------------------------------------------------------
 // Sampling frequency is needed to determine how often the sensor will produce a
 // reading to be sent. Sampling frequency is set as ~111 Hz, the equivalent of a
 // sampling period of 9ms.
 int Fs = 1/(9*10^-3);                           // Sampling frequency [Hz]
+
 int TIM_LED = 0;
+
+//static uint16_t counter = 0; /////
 
 // LED ------------------------------------------------------------------------
 #define LED_PIN                     GPIO_Pin_1
@@ -388,6 +391,28 @@ void Read_SensorData(void) {
   // Sensor data
   LSM_DataProcess(&m_data);
   
+  ///// Prova con le rampe
+//  for (uint8_t i = 0; i < 6; i++) 
+//  {
+//    if ((i-1) % 3 == 0) 
+//    {
+//      vec[2 * i] = (uint8_t)(counter & 0x00FF);
+//      vec[2 * i + 1] = (uint8_t)((counter & 0xFF00) >> 8);
+//    }
+//    else
+//    {
+//      vec[2 * i] = i * 10;
+//      vec[2 * i + 1] = i * 10;
+//    }
+//  }
+//  
+//if (counter < 65535)
+//counter++;
+//else
+//counter = 0;    
+  
+
+  
   vec[0]  = (uint8_t)(((int16_t)m_data.sAcc[0]));               // Acc x
   vec[1]  = (uint8_t)(((int16_t)m_data.sAcc[0])>>8);
   vec[2]  = (uint8_t)(((int16_t)m_data.sAcc[1]));               // Acc y
@@ -400,6 +425,8 @@ void Read_SensorData(void) {
   vec[9]  = (uint8_t)(((int16_t)m_data.sGyr[1])>>8);
   vec[10] = (uint8_t)(((int16_t)m_data.sGyr[2]));               // Gyr z
   vec[11] = (uint8_t)(((int16_t)m_data.sGyr[2])>>8);
+
+
   
   // Finger readings are sent after specific requests. The request specifies
   // which finger is expected to send data. Data to be sent will start, then,

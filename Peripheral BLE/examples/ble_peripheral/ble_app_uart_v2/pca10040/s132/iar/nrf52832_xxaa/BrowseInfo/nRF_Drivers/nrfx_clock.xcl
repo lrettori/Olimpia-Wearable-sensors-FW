@@ -1,295 +1,295 @@
-"C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\drivers\src\nrfx_clock.c"
+"D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\drivers\src\nrfx_clock.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Drivers\nrfx_clock.pbi.dep
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Drivers\nrfx_clock.pbi.dep
 -o
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Drivers\nrfx_clock.pbi
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Drivers\nrfx_clock.pbi
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\drivers\src
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\drivers\src
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cscs\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cscs\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cts_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cts_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dfu\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dfu\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dis\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dis\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_gls\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_gls\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hids\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hids\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hts\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hts\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lls\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lls\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_tps\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_tps\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\common\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\common\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gatt\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gatt\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_qwr\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_qwr\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\peer_manager\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\peer_manager\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\boards\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\boards\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_fifo\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_fifo\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_flags\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_flags\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\balloc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\balloc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bootloader\ble_dfu\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bootloader\ble_dfu\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bsp\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bsp\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\button\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\button\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\cli\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\cli\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc16\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc16\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc32\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc32\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crypto\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crypto\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense_drv\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense_drv\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\delay\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\delay\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ecc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ecc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_section_vars\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_section_vars\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_task_manager\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_task_manager\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fds\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fds\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fifo\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fifo\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fstorage\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fstorage\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gfx\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gfx\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gpiote\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gpiote\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hardfault\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hardfault\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hci\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hci\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\led_softblink\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\led_softblink\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\src\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\src\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\low_power_pwm\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\low_power_pwm\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mem_manager\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mem_manager\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\memobj\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\memobj\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mpu\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mpu\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mutex\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mutex\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwm\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwm\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwr_mgmt\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwr_mgmt\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\queue\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\queue\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ringbuf\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ringbuf\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\scheduler\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\scheduler\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sdcard\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sdcard\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\slip\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\slip\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sortlist\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sortlist\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\spi_mngr\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\spi_mngr\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\stack_guard\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\stack_guard\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\strerror\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\strerror\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\svc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\svc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\timer\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\timer\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_mngr\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_mngr\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_sensor\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_sensor\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\uart\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\uart\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\audio\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\audio\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\generic\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\generic\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\msc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\msc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ac_rec_parser\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ac_rec_parser\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ac_rec\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ac_rec\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_oob_advdata\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_oob_advdata\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_lib\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_lib\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_msg\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_msg\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\common\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\common\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ep_oob_rec\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ep_oob_rec\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\hs_rec\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\hs_rec\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\le_oob_rec\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\le_oob_rec\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\message\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\message\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\record\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\record\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\launchapp\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\launchapp\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\message\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\message\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\record\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\record\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\text\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\text\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\uri\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\uri\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\platform\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\platform\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_lib\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_lib\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_parser\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_parser\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_lib\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_lib\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\apdu\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\apdu\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\cc_file\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\cc_file\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\hl_detection_procedure\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\hl_detection_procedure\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\tlv\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\tlv\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\common\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\common\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\fprintf\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\fprintf\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\segger_rtt\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\segger_rtt\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\utf_converter\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\external\utf_converter\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\legacy\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\legacy\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\config\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\config\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\hal\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\hal\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\STM32F10x_SP_Driver\Inc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\STM32F10x_SP_Driver\Inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\STM32F10x_SP_Driver\Src\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\STM32F10x_SP_Driver\Src\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\CMSIS\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\CMSIS\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\STM32\STM32F10x\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_advertising\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_advertising\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_dtm\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_dtm\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_link_ctx_manager\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_link_ctx_manager\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_racp\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_racp\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ans_c\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ans_c\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\LSM9DS1\Inc\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\LSM9DS1\Inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\LSM9DS1\Src\
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\sensors\LSM9DS1\Src\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -301,285 +301,285 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_bas_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_bas_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_cscs
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_cscs
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_cts_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_cts_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_dfu
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_dfu
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_dis
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_dis
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_gls
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_gls
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_hids
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_hids
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_hrs
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_hrs
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_hrs_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_hrs_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_hts
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_hts
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_ias
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_ias
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_ias_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_ias_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_lbs
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_lbs
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_lbs_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_lbs_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_lls
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_lls
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_nus
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_nus
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_nus_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_nus_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_rscs
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_rscs
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_rscs_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_rscs_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_tps
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_tps
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\common
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\common
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\nrf_ble_gatt
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\nrf_ble_gatt
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\nrf_ble_qwr
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\nrf_ble_qwr
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\peer_manager
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\peer_manager
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\boards
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\boards
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\atomic
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\atomic
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\atomic_fifo
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\atomic_fifo
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\atomic_flags
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\atomic_flags
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\balloc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\balloc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\bootloader\ble_dfu
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\bootloader\ble_dfu
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\bsp
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\bsp
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\button
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\button
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\cli
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\cli
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\crc16
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\crc16
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\crc32
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\crc32
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\crypto
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\crypto
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\csense
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\csense
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\csense_drv
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\csense_drv
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\delay
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\delay
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\ecc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\ecc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\experimental_section_vars
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\experimental_section_vars
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\experimental_task_manager
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\experimental_task_manager
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\fds
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\fds
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\fifo
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\fifo
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\fstorage
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\fstorage
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\gfx
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\gfx
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\gpiote
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\gpiote
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\hardfault
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\hardfault
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\hci
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\hci
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\led_softblink
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\led_softblink
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\log
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\log
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\log\src
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\log\src
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\low_power_pwm
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\low_power_pwm
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\mem_manager
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\mem_manager
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\memobj
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\memobj
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\mpu
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\mpu
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\mutex
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\mutex
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\pwm
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\pwm
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\pwr_mgmt
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\pwr_mgmt
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\queue
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\queue
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\ringbuf
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\ringbuf
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\scheduler
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\scheduler
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\sdcard
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\sdcard
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\slip
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\slip
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\sortlist
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\sortlist
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\spi_mngr
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\spi_mngr
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\stack_guard
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\stack_guard
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\strerror
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\strerror
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\svc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\svc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\timer
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\timer
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\twi_mngr
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\twi_mngr
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\twi_sensor
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\twi_sensor
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\uart
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\uart
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\audio
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\audio
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\cdc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\cdc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\cdc\acm
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\cdc\acm
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\hid
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\hid
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\hid\generic
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\hid\generic
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\hid\kbd
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\hid\kbd
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\hid\mouse
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\hid\mouse
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\usbd\class\msc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\usbd\class\msc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\libraries\util
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\libraries\util
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\conn_hand_parser
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\conn_hand_parser
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\conn_hand_parser\ac_rec_parser
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\conn_hand_parser\ac_rec_parser
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\ac_rec
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\ac_rec
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\ble_oob_advdata
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\ble_oob_advdata
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\ble_pair_lib
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\ble_pair_lib
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\ble_pair_msg
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\ble_pair_msg
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\common
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\common
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\ep_oob_rec
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\ep_oob_rec
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\hs_rec
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\hs_rec
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\connection_handover\le_oob_rec
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\connection_handover\le_oob_rec
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\generic\message
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\generic\message
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\generic\record
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\generic\record
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\launchapp
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\launchapp
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\parser\message
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\parser\message
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\parser\record
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\parser\record
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\text
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\text
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\ndef\uri
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\ndef\uri
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\platform
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\platform
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t2t_lib
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t2t_lib
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t2t_parser
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t2t_parser
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t4t_lib
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t4t_lib
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t4t_parser\apdu
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t4t_parser\apdu
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t4t_parser\cc_file
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t4t_parser\cc_file
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t4t_parser\hl_detection_procedure
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t4t_parser\hl_detection_procedure
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\nfc\t4t_parser\tlv
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\nfc\t4t_parser\tlv
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\softdevice\common
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\softdevice\common
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\softdevice\s132\headers
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\softdevice\s132\headers
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\softdevice\s132\headers\nrf52
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\softdevice\s132\headers\nrf52
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\toolchain\cmsis\include
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\toolchain\cmsis\include
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\external\fprintf
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\external\fprintf
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\external\segger_rtt
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\external\segger_rtt
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\external\utf_converter
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\external\utf_converter
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\integration\nrfx
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\integration\nrfx
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\integration\nrfx\legacy
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\integration\nrfx\legacy
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\drivers\include
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\drivers\include
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\config
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\config
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\mdk
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\mdk
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\hal
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\hal
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\sensors
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\sensors
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\STM32\STM32F10x\STM32F10x_SP_Driver\Inc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\STM32\STM32F10x\STM32F10x_SP_Driver\Inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\STM32\STM32F10x\STM32F10x_SP_Driver\Src
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\STM32\STM32F10x\STM32F10x_SP_Driver\Src
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\STM32\STM32F10x\CMSIS
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\STM32\STM32F10x\CMSIS
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\STM32\STM32F10x
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\STM32\STM32F10x
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_advertising
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_advertising
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_dtm
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_dtm
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_link_ctx_manager
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_link_ctx_manager
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_racp
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_racp
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_ancs_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_ancs_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_ans_c
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_ans_c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\components\ble\ble_services\ble_bas
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\components\ble\ble_services\ble_bas
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\modules\nrfx\mdk
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\modules\nrfx\mdk
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\sensors\LSM9DS1\Inc
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\sensors\LSM9DS1\Inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Peripheral BLE\sensors\LSM9DS1\Src
+D:\Firmware\Codici Olimpia\Peripheral BLE - modified\sensors\LSM9DS1\Src
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -I

@@ -29,6 +29,8 @@ LSM9DS1_A_ConfigTypeDef   LSM_Acc_InitStructure;
 LSM9DS1_G_ConfigTypeDef   LSM_Gyr_InitStructure;
 LSM9DS1_M_ConfigTypeDef   LSM_Magn_InitStructure;
 
+int aq = 0;
+
 /*----------------------------------------------------------------------------*/
 void I2C_DMA_Config(I2C_TypeDef* I2Cx, uint8_t* pBuffer, uint32_t lBufferSize)
 {
@@ -328,7 +330,35 @@ void LSM_DataProcess(LSM_DATA *mData)
     
     // int16_t raw data are converted in float. Also, data are converted in 
     // actual measurement units instead of LSB.
-    mData->fAcc[i] = (float)(*mData).sAcc[i] * LSM9DS1_Acc_Sens_2/1000;
+    mData->fAcc[i] = (float)(*mData).sAcc[i] * LSM9DS1_Acc_Sens_8/1000;
     mData->fGyr[i] = (float)(*mData).sGyr[i] * LSM9DS1_Gyr_Sens_2000/1000;
+       
   }
+  
+  
+  if (((float)(*mData).sAcc[0] * LSM9DS1_Acc_Sens_8/1000)>1.5)
+  {
+  aq  = 0;
+  }
+    if ((float)(*mData).sAcc[1] * LSM9DS1_Acc_Sens_8/1000>1.5)
+  {
+  aq  = 0;
+  }
+    if ((float)(*mData).sAcc[2] * LSM9DS1_Acc_Sens_8/1000>1.5)
+  {
+  aq  = 0;
+  }
+    if ((float)(*mData).sGyr[0] * LSM9DS1_Gyr_Sens_2000/1000>15)
+  {
+  aq  = 0;
+  }
+    if ((float)(*mData).sGyr[1] * LSM9DS1_Gyr_Sens_2000/1000>15)
+  {
+  aq  = 0;
+  }
+    if ((float)(*mData).sGyr[2] * LSM9DS1_Gyr_Sens_2000/1000>15)
+  {
+  aq  = 0;
+  }
+  
 }

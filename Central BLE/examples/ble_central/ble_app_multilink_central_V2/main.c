@@ -3,9 +3,9 @@
  * BLUETOOTH - MULTILINK CENTRAL
  ******************************************************************************
  * @file        main.c
- * @author      Michelangelo Guaitolini
- * @version     v1.0
- * @date        2023
+ * @author      Lorenzo Rettori
+ * @version     v2.0
+ * @date        2024
  * @brief       Main program body.
  *              This project handles the central unit of a sensor network (The 
  *              Dongle). The central unit collects data from up to 4 periphelas 
@@ -16,7 +16,17 @@
  *              Peripherals may be of two different types:
  *                      - SensHand: streaming data from 3 IMUs.
  *                      - SensFoot: streaming data from 1 IMU.
- *
+ *              
+ *              Main modifications from version 1.0:
+ *              - The data stored in the input buffers (packets received
+ *                from the sensors) is enclosed in the structure to be sent to
+ *                the PC via serial port, only if received by all the connected
+ *                sensors. This step is performed with a frequency of 10 Hz, and
+ *                all the available packets are sent.
+ *              - Several small modifications to solve bugs of the previous
+ *                version, mainly regarding syncronization problems in case
+ *                of multiple connections/disconnections of sensors
+ * 
  ******************************************************************************
  * Copyright (c) 2014 - 2021, Nordic Semiconductor ASA
  *
@@ -108,8 +118,8 @@
                                                                                 // The default tag is @ref APP_BLE_CONN_CFG_TAG.
 #define APP_BLE_OBSERVER_PRIO     3                                             // BLE observer priority of the application. There is no need to modify this value.
 
-#define UART_TX_BUF_SIZE          256                                           // UART TX buffer size  256
-#define UART_RX_BUF_SIZE          256                                           // UART RX buffer size  256
+#define UART_TX_BUF_SIZE          4096                                           // UART TX buffer size  4096
+#define UART_RX_BUF_SIZE          4096                                           // UART RX buffer size  4096
 
 #define CENTRAL_SCANNING_LED      BSP_BOARD_LED_0
 #define CENTRAL_CONNECTED_LED     BSP_BOARD_LED_1
@@ -156,7 +166,7 @@ static char const m_target_periph_name_03[] = "Nordic_UART_03";
 #define data_length_H   36                                                      
 #define data_length_F   12                                                      
 
-#define store_sz        2500
+#define store_sz        2520 // Increased from 2500 to 2520, to store an integer number of hand/feet data vectors (respectively 70 and 210)
 uint8_t    BUF_0[store_sz];                                                     // Internal buffers to store data from peripherals before streaming the whole package
 uint8_t    BUF_1[store_sz];
 uint8_t    BUF_2[store_sz];
@@ -167,33 +177,57 @@ bool C_1 = false;
 bool C_2 = false;
 bool C_3 = false;
 
+// Connected sensors
+bool isSensConnected[4] = {false, false, false, false};
+
 // Connected sensors counter
 int sens_n  = 0;
-uint16_t conn_0 = 0;
-uint16_t conn_1 = 0;
-uint16_t conn_2 = 0;
-uint16_t conn_3 = 0;
+
+// Order of connected sensors (from 0 to 3)
+uint16_t conn_0 = 9999;
+uint16_t conn_1 = 9999;
+uint16_t conn_2 = 9999;
+uint16_t conn_3 = 9999;
+
+// Counters for packets received from sensors and sent via UART
+uint16_t packetsReceived [4];
+uint16_t packetsSent [4];
 
 // Iteration index to print upcoming into the buffers and to read them from the
 // buffers and send to the serial port.
-int I_0 = 0;
-int I_1 = 0;
-int I_2 = 0;
-int I_3 = 0;
+uint16_t I_0 = 0;
+uint16_t I_1 = 0;
+uint16_t I_2 = 0;
+uint16_t I_3 = 0;
 
-int K_0 = 0;
-int K_1 = 0;
-int K_2 = 0;
-int K_3 = 0;
+uint16_t K_0 = 0;
+uint16_t K_1 = 0;
+uint16_t K_2 = 0;
+uint16_t K_3 = 0;
 
 // Final array to be sent to the serial port. Length is due to handle two 
 // SensHands, two SensFoots, a start character and an end character. 
 // So 36 * 2 + 12 * 2 + 2 = 98
 uint8_t PRINT[98];
+//uint8_t PRINT[106]; // For debug
+
+float acc_fr_x;
+float acc_fr_y; 
+float acc_fr_z;
+float gyr_fr_x;
+float gyr_fr_y;
+float gyr_fr_z;
+
+uint16_t counter1 = 0;
+
 
 // TIMER ______________________________________________________________________
-// Timer is set with a sampling frequency of 9ms (~111 Hz)
-#define TIM_INTERVAL    APP_TIMER_TICKS(9)
+// Timer is set with a sampling period of 100ms (10 Hz)
+// This defines the frequency under which the dongle looks at the input buffers
+// of the connected sensors and sends the packets received (if any) via serial 
+// port. Data are received by the sensors with their sampling frequency
+#define TIM_INTERVAL    APP_TIMER_TICKS(100) // 10 Hz
+
 APP_TIMER_DEF(m_app_timer_id);
 
 // FUNCTIONS __________________________________________________________________
@@ -827,11 +861,21 @@ static void ble_mic_c_evt_handler(ble_mic_c_t * p_ble_mic_c,
       for (int i = 0; i < data_length_H; i++) {
         BUF_0[I_0 + i] = p_ble_mic_evt->p_data[i + 1];
       }
+
       I_0 = I_0 + data_length_H;
       if (I_0 > store_sz - data_length_H) {
         I_0 = 0;
       }
+      if (isSensConnected[0] == false)
+      {
+        // Initialize the reading index, since after a new connection the data 
+        // will be stored at initial positions of the input buffer
+        K_0 = 0;
+        isSensConnected[0] = true;
+      }
+      packetsReceived[0]++;
     }
+    
     // SensHand, Right
     // Sensor 3, Sensor 4, Sensor 5 -------------------------------------------
     else if (p_ble_mic_evt->p_data[0] == '1') {
@@ -840,11 +884,21 @@ static void ble_mic_c_evt_handler(ble_mic_c_t * p_ble_mic_c,
       for (int i = 0; i < data_length_H; i++) {
         BUF_1[I_1 + i] = p_ble_mic_evt->p_data[i + 1];
       }
+      
       I_1 = I_1 + data_length_H;
       if (I_1 > store_sz - data_length_H) {
         I_1 = 0;
       }
+      if (isSensConnected[1] == false)
+      {
+        // Initialize the reading index, since after a new connection the data 
+        // will be stored at initial positions of the input buffer
+        K_1 = 0;
+        isSensConnected[1] = true;
+      }
+      packetsReceived[1]++;
     }
+    
     // SensFoot, Left
     // Sensor 6 ---------------------------------------------------------------
     else if (p_ble_mic_evt->p_data[0] == '2') {
@@ -853,11 +907,21 @@ static void ble_mic_c_evt_handler(ble_mic_c_t * p_ble_mic_c,
       for (int i = 0; i < data_length_F; i++) {
         BUF_2[I_2 + i] = p_ble_mic_evt->p_data[i + 1];
       }
+      
       I_2 = I_2 + data_length_F;
       if (I_2 > store_sz - data_length_F) {
         I_2 = 0;
       }
+      if (isSensConnected[2] == false)
+      {
+        // Initialize the reading index, since after a new connection the data 
+        // will be stored at initial positions of the input buffer
+        K_2 = 0;
+        isSensConnected[2] = true;
+      }
+      packetsReceived[2]++;
     }
+    
     // SensFoot, Right
     // Sensor 7 ---------------------------------------------------------------
     else if (p_ble_mic_evt->p_data[0] == '3') {
@@ -866,11 +930,21 @@ static void ble_mic_c_evt_handler(ble_mic_c_t * p_ble_mic_c,
       for (int i = 0; i < data_length_F; i++) {
         BUF_3[I_3 + i] = p_ble_mic_evt->p_data[i + 1];
       }
+      
       I_3 = I_3 + data_length_F;
       if (I_3 > store_sz - data_length_F) {
         I_3 = 0;
       }
+      if (isSensConnected[3] == false)
+      {
+        // Initialize the reading index, since after a new connection the data 
+        // will be stored at initial positions of the input buffer
+        K_3 = 0;
+        isSensConnected[3] = true;
+      }
+      packetsReceived[3]++;
     }
+    
     // ------------------------------------------------------------------------
     break;
   case BLE_MIC_C_EVT_DISCONNECTED:
@@ -962,19 +1036,31 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
       sens_n--;
       if (p_gap_evt->conn_handle == conn_0) {
         memset(BUF_0,0,store_sz);
+        
         C_0 = false;
+        isSensConnected[0] = false;
+        I_0 = 0;
       }
       else if (p_gap_evt->conn_handle == conn_1) {
         memset(BUF_1,0,store_sz);
+        
         C_1 = false;
+        isSensConnected[1] = false;
+        I_1 = 0;
       }
       else if (p_gap_evt->conn_handle == conn_2) {
         memset(BUF_2,0,store_sz);
+                
         C_2 = false;
+        isSensConnected[2] = false;
+        I_2 = 0;
       }
       else if (p_gap_evt->conn_handle == conn_3) {
         memset(BUF_3,0,store_sz);
+        
         C_3 = false;
+        isSensConnected[3] = false;
+        I_3 = 0;
       }
       
       if (ble_conn_state_central_conn_count() == 0)
@@ -1153,6 +1239,7 @@ static void uart_init(void)
     .flow_control = APP_UART_FLOW_CONTROL_ENABLED,
     .use_parity   = false,
     .baud_rate    = UART_BAUDRATE_BAUDRATE_Baud460800
+
   };
   APP_UART_FIFO_INIT(&comm_params, 
                      UART_RX_BUF_SIZE, 
@@ -1234,6 +1321,117 @@ static void lfclk_config(void)
   // We are going to use the events with an interrupt handler.
 }
 
+void sendDataOverUart()
+{
+  // Print ! 
+        PRINT[0] = (uint8_t) 'D';
+        
+        for (int i = 0; i < 2; i++) {
+          // SensHand, Left _______________________________________________________
+          // Sensor_0 : Wrist _____________________________________________________
+          PRINT[i + 1]  = BUF_0[K_0 + i];               // Acc
+          PRINT[i + 3]  = BUF_0[K_0 + 2  + i];     
+          PRINT[i + 5]  = BUF_0[K_0 + 4  + i];
+          
+          PRINT[i + 7]  = BUF_0[K_0 + 6  + i];          // Gyr
+          PRINT[i + 9]  = BUF_0[K_0 + 8  + i];     
+          PRINT[i + 11] = BUF_0[K_0 + 10 + i];     
+          
+          // Sensor_1 : Thumb _____________________________________________________
+          PRINT[i + 13] = BUF_0[K_0 + 12 + i];          // Acc
+          PRINT[i + 15] = BUF_0[K_0 + 14 + i];     
+          PRINT[i + 17] = BUF_0[K_0 + 16 + i];
+          
+          PRINT[i + 19] = BUF_0[K_0 + 18 + i];          // Gyr
+          PRINT[i + 21] = BUF_0[K_0 + 20 + i];     
+          PRINT[i + 23] = BUF_0[K_0 + 22 + i];
+          
+          // Sensor_2 : Index _____________________________________________________
+          PRINT[i + 25] = BUF_0[K_0 + 24 + i];          // Acc
+          PRINT[i + 27] = BUF_0[K_0 + 26 + i];     
+          PRINT[i + 29] = BUF_0[K_0 + 28 + i];
+          
+          PRINT[i + 31] = BUF_0[K_0 + 30 + i];          // Gyr
+          PRINT[i + 33] = BUF_0[K_0 + 32 + i];     
+          PRINT[i + 35] = BUF_0[K_0 + 34 + i];
+          
+          // SensHand, Right ______________________________________________________
+          // Sensor_3 : Wrist _____________________________________________________
+          PRINT[i + 37] = BUF_1[K_1 + i];               // Acc
+          PRINT[i + 39] = BUF_1[K_1 + 2  + i];     
+          PRINT[i + 41] = BUF_1[K_1 + 4  + i];
+          
+          PRINT[i + 43] = BUF_1[K_1 + 6  + i];          // Gyr
+          PRINT[i + 45] = BUF_1[K_1 + 8  + i];     
+          PRINT[i + 47] = BUF_1[K_1 + 10 + i];
+          
+          // Sensor_4 : Thumb _____________________________________________________
+          PRINT[i + 49] = BUF_1[K_1 + 12 + i];         // Acc
+          PRINT[i + 51] = BUF_1[K_1 + 14 + i];     
+          PRINT[i + 53] = BUF_1[K_1 + 16 + i];
+          
+          PRINT[i + 55] = BUF_1[K_1 + 18 + i];         // Gyr
+          PRINT[i + 57] = BUF_1[K_1 + 20 + i];     
+          PRINT[i + 59] = BUF_1[K_1 + 22 + i];
+          
+          // Sensor_5 : Index _____________________________________________________
+          PRINT[i + 61] = BUF_1[K_1 + 24 + i];         // Acc
+          PRINT[i + 63] = BUF_1[K_1 + 26 + i];     
+          PRINT[i + 65] = BUF_1[K_1 + 28 + i];
+          
+          PRINT[i + 67] = BUF_1[K_1 + 30 + i];         // Gyr
+          PRINT[i + 69] = BUF_1[K_1 + 32 + i];     
+          PRINT[i + 71] = BUF_1[K_1 + 34 + i];
+          
+          // SensFoot, Left _______________________________________________________
+          // Sensor_6 _____________________________________________________________
+          PRINT[i + 73] = BUF_2[K_2 + i];              // Acc
+          PRINT[i + 75] = BUF_2[K_2 + 2  + i];     
+          PRINT[i + 77] = BUF_2[K_2 + 4  + i];
+          
+          PRINT[i + 79] = BUF_2[K_2 + 6  + i];         // Gyr
+          PRINT[i + 81] = BUF_2[K_2 + 8  + i];     
+          PRINT[i + 83] = BUF_2[K_2 + 10 + i];
+          
+          // SensFoot, Right ______________________________________________________
+          // Sensor_7 _____________________________________________________________
+          PRINT[i + 85] = BUF_3[K_3 + i];              // Acc
+          PRINT[i + 87] = BUF_3[K_3 + 2  + i];     
+          PRINT[i + 89] = BUF_3[K_3 + 4  + i];
+          
+          PRINT[i + 91] = BUF_3[K_3 + 6  + i];         // Gyr
+          PRINT[i + 93] = BUF_3[K_3 + 8  + i];     
+          PRINT[i + 95] = BUF_3[K_3 + 10 + i];
+          //______________________________________________________________________
+        }
+        PRINT[97] = (uint8_t) 'L';
+        
+//        ///// Prova di corruzione dei pacchetti inviati al PC, per verificare il corretto
+//        ///// funzionamento del meccanismo di ripristino del flusso di acquisizione dati
+//        counter1++;
+//        if (counter1 % 1000 == 1)
+//        {
+//          // Simulating an increasing number of lost bytes, not including start and stop bytes
+//          int nLostBytes = counter1 / 1000;
+//          for (int i = 20 ; i < 98 - nLostBytes; i++)
+//          {
+//            PRINT[i] = PRINT[i + nLostBytes];
+//          }
+//          PRINT[98 - nLostBytes - 1] = (uint8_t) 'L';
+//          ble_mic_chars_received_uart_print(PRINT, (98 - nLostBytes));  
+//        }
+//        else if (counter1 % 1000 == 500)
+//        {
+//          // Simulating losing the stop byte
+//          ble_mic_chars_received_uart_print(PRINT, 97);
+//        }
+//        else
+//          /////
+        
+          // Serial print
+          ble_mic_chars_received_uart_print(PRINT, 98);  
+}
+
 // ____________________________________________________________________________
 /**@brief Time event handler
  * @details: This function is called at any tick of the clock. So it is called 
@@ -1246,119 +1444,76 @@ static void app_timer_handler(void * p_context)
 {
   if (sens_n >= 1) {
     // If data have been read and stored from all peripherals, then print.
-
-    // Toggle led if data stream is ongoing : at 111 Hz is barely useless, so
-    // we don't bother adding this command.
-    // bsp_board_led_invert(CENTRAL_CONNECTED_LED);
     
-    // Print ! 
-    PRINT[0] = (uint8_t) 'D';
-    for (int i = 0; i < 2; i++) {
-      // SensHand, Left _______________________________________________________
-      // Sensor_0 : Wrist _____________________________________________________
-      PRINT[i + 1]  = *(uint8_t*) &BUF_0[K_0 + i];               // Acc
-      PRINT[i + 3]  = *(uint8_t*) &BUF_0[K_0 + 2  + i];     
-      PRINT[i + 5]  = *(uint8_t*) &BUF_0[K_0 + 4  + i];
-      
-      PRINT[i + 7]  = *(uint8_t*) &BUF_0[K_0 + 6  + i];          // Gyr
-      PRINT[i + 9]  = *(uint8_t*) &BUF_0[K_0 + 8  + i];     
-      PRINT[i + 11] = *(uint8_t*) &BUF_0[K_0 + 10 + i];     
-      
-      // Sensor_1 : Thumb _____________________________________________________
-      PRINT[i + 13] = *(uint8_t*) &BUF_0[K_0 + 12 + i];          // Acc
-      PRINT[i + 15] = *(uint8_t*) &BUF_0[K_0 + 14 + i];     
-      PRINT[i + 17] = *(uint8_t*) &BUF_0[K_0 + 16 + i];
-      
-      PRINT[i + 19] = *(uint8_t*) &BUF_0[K_0 + 18 + i];          // Gyr
-      PRINT[i + 21] = *(uint8_t*) &BUF_0[K_0 + 20 + i];     
-      PRINT[i + 23] = *(uint8_t*) &BUF_0[K_0 + 22 + i];
-      
-      // Sensor_2 : Index _____________________________________________________
-      PRINT[i + 25] = *(uint8_t*) &BUF_0[K_0 + 24 + i];          // Acc
-      PRINT[i + 27] = *(uint8_t*) &BUF_0[K_0 + 26 + i];     
-      PRINT[i + 29] = *(uint8_t*) &BUF_0[K_0 + 28 + i];
-      
-      PRINT[i + 31] = *(uint8_t*) &BUF_0[K_0 + 30 + i];          // Gyr
-      PRINT[i + 33] = *(uint8_t*) &BUF_0[K_0 + 32 + i];     
-      PRINT[i + 35] = *(uint8_t*) &BUF_0[K_0 + 34 + i];
-      
-      // SensHand, Right ______________________________________________________
-      // Sensor_3 : Wrist _____________________________________________________
-      PRINT[i + 37] = *(uint8_t*) &BUF_1[K_1 + i];               // Acc
-      PRINT[i + 39] = *(uint8_t*) &BUF_1[K_1 + 2  + i];     
-      PRINT[i + 41] = *(uint8_t*) &BUF_1[K_1 + 4  + i];
-      
-      PRINT[i + 43] = *(uint8_t*) &BUF_1[K_1 + 6  + i];          // Gyr
-      PRINT[i + 45] = *(uint8_t*) &BUF_1[K_1 + 8  + i];     
-      PRINT[i + 47] = *(uint8_t*) &BUF_1[K_1 + 10 + i];
-      
-      // Sensor_4 : Thumb _____________________________________________________
-      PRINT[i + 49] = *(uint8_t*) &BUF_1[K_1 + 12 + i];         // Acc
-      PRINT[i + 51] = *(uint8_t*) &BUF_1[K_1 + 14 + i];     
-      PRINT[i + 53] = *(uint8_t*) &BUF_1[K_1 + 16 + i];
-      
-      PRINT[i + 55] = *(uint8_t*) &BUF_1[K_1 + 18 + i];         // Gyr
-      PRINT[i + 57] = *(uint8_t*) &BUF_1[K_1 + 20 + i];     
-      PRINT[i + 59] = *(uint8_t*) &BUF_1[K_1 + 22 + i];
-      
-      // Sensor_5 : Index _____________________________________________________
-      PRINT[i + 61] = *(uint8_t*) &BUF_1[K_1 + 24 + i];         // Acc
-      PRINT[i + 63] = *(uint8_t*) &BUF_1[K_1 + 26 + i];     
-      PRINT[i + 65] = *(uint8_t*) &BUF_1[K_1 + 28 + i];
+    // Count the maximum number of packets that can be sent over uart, depending on the packets arrived from each connected sensor
+    uint16_t nPackets = 0;
+    uint16_t nPacketsTemp = 0;
+    bool flag = true;
     
-      PRINT[i + 67] = *(uint8_t*) &BUF_1[K_1 + 30 + i];         // Gyr
-      PRINT[i + 69] = *(uint8_t*) &BUF_1[K_1 + 32 + i];     
-      PRINT[i + 71] = *(uint8_t*) &BUF_1[K_1 + 34 + i];
-      
-      // SensFoot, Left _______________________________________________________
-      // Sensor_6 _____________________________________________________________
-      PRINT[i + 73] = *(uint8_t*) &BUF_2[K_2 + i];              // Acc
-      PRINT[i + 75] = *(uint8_t*) &BUF_2[K_2 + 2  + i];     
-      PRINT[i + 77] = *(uint8_t*) &BUF_2[K_2 + 4  + i];
-      
-      PRINT[i + 79] = *(uint8_t*) &BUF_2[K_2 + 6  + i];         // Gyr
-      PRINT[i + 81] = *(uint8_t*) &BUF_2[K_2 + 8  + i];     
-      PRINT[i + 83] = *(uint8_t*) &BUF_2[K_2 + 10 + i];
-      
-      // SensFoot, Right ______________________________________________________
-      // Sensor_7 _____________________________________________________________
-      PRINT[i + 85] = *(uint8_t*) &BUF_3[K_3 + i];              // Acc
-      PRINT[i + 87] = *(uint8_t*) &BUF_3[K_3 + 2  + i];     
-      PRINT[i + 89] = *(uint8_t*) &BUF_3[K_3 + 4  + i];
-      
-      PRINT[i + 91] = *(uint8_t*) &BUF_3[K_3 + 6  + i];         // Gyr
-      PRINT[i + 93] = *(uint8_t*) &BUF_3[K_3 + 8  + i];     
-      PRINT[i + 95] = *(uint8_t*) &BUF_3[K_3 + 10 + i];
-      // ______________________________________________________________________
+    for (int i = 0; i < 4; i++)
+    {
+      if (isSensConnected[i])
+      {
+        nPacketsTemp = packetsReceived[i] - packetsSent[i];
+        if (flag)
+        {
+          // First of the connected sensors
+          nPackets = nPacketsTemp;
+          flag = false;
+        }
+        else if (nPacketsTemp < nPackets)
+          nPackets = nPacketsTemp;
+      }
     }
-    PRINT[97] = (uint8_t) 'L';
     
-    // Serial print
-    ble_mic_chars_received_uart_print(PRINT, 98);
+    if (nPackets > 20)
+      nPackets = 20;
     
-    // Updated index for printed values
-    K_0 = K_0 + data_length_H;
-    if (K_0 > store_sz - data_length_H) {
-      K_0 = 0;
+    if (nPackets > 0)
+    {
+      for (int j = 0; j < nPackets; j++)
+      {
+        // Send one data packet
+        sendDataOverUart();
+        
+        // Updated index for printed values
+        K_0 = K_0 + data_length_H;
+        if (K_0 > store_sz - data_length_H) {
+          K_0 = 0;
+        }
+        
+        K_1 = K_1 + data_length_H;
+        if (K_1 > store_sz - data_length_H) {
+          K_1 = 0;
+        }
+        K_2 = K_2 + data_length_F;
+        if (K_2 > store_sz - data_length_F) {
+          K_2 = 0;
+        }
+        K_3 = K_3 + data_length_F;
+        if (K_3 > store_sz - data_length_F) {
+          K_3 = 0;
+        }
+        
+        // Increase the counters packetsSent
+        if (isSensConnected[0])
+          packetsSent[0]++;
+        if (isSensConnected[1])
+          packetsSent[1]++;
+        if (isSensConnected[2])
+          packetsSent[2]++;
+        if (isSensConnected[3])
+          packetsSent[3]++;
+      }
+      
     }
-    K_1 = K_1 + data_length_H;
-    if (K_1 > store_sz - data_length_H) {
-      K_1 = 0;
-    }
-    K_2 = K_2 + data_length_F;
-    if (K_2 > store_sz - data_length_F) {
-      K_2 = 0;
-    }
-    K_3 = K_3 + data_length_F;
-    if (K_3 > store_sz - data_length_F) {
-      K_3 = 0;
-    }
-  }
-  // If disconnetect, stop blinking
-  if (ble_conn_state_central_conn_count() == 0) {
-    bsp_board_led_off(CENTRAL_CONNECTED_LED);
+    
+    // If disconnected, stop blinking
+    if (ble_conn_state_central_conn_count() == 0) bsp_board_led_off(CENTRAL_CONNECTED_LED);
   }
 }
+  
+
 
 // ____________________________________________________________________________
 /** @brief Function for initializing the timer.
@@ -1397,6 +1552,8 @@ int main(void)
   // Start execution.  
   uint32_t err_code = app_timer_start(m_app_timer_id, TIM_INTERVAL, NULL);
   
+  
+
   while (1) {
     idle_state_handle();
   }

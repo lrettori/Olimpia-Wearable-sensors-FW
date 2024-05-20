@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.general.xcl" --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.general.xcl" --backend -f "D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.general.xcl" --debug_file=$debugfile --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.general.xcl" --debug_file=$debugfile --backend -f "D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\settings\ble_app_uart_pca10040_s132.nrf52832_xxaa.driver.xcl" 
 }

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.general.xcl" --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.general.xcl" --backend -f "D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.general.xcl" "--debug_file=%~1" --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.general.xcl" "--debug_file=%~1" --backend -f "D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\settings\ble_app_multilink_central_pca10040_s132.nrf52832_xxaa.driver.xcl" 
 
 @echo off 
 :end

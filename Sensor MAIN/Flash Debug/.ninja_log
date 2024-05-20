@@ -1,348 +1,95 @@
 # ninja log v5
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f6081bc68539365f
-6	5621	6884841706240883	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LED.o	6fc4a6a6e6a61922
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f6081bc68539365f
-6	558	6880648850738309	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/startup_stm32f10x_md.o	eacd56980255de76
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f6081bc68539365f
-7060	7199	6886740129083198	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	b82851941a2fbeb9
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f6081bc68539365f
-3	6994	6886740125472842	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f6081bc68539365f
-7234	7252	6886740129639859	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	5ca3ef100fae7540
-6	67	6904023401113771	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/startup_stm32f10x_md.o	3f342b8bca5dc0fe
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f294167ca991957b
-13	6321	6904023462104658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f294167ca991957b
-6419	6612	6904023466549049	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	c9b0306f8693284b
-6664	6682	6904023467283370	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	f90e5b0975ef9633
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f294167ca991957b
-2	7466	6982556635146280	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f294167ca991957b
-7553	7770	6982556639635725	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	c9b0306f8693284b
-7810	7831	6982556640274010	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	f90e5b0975ef9633
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f294167ca991957b
-11	7959	6982558430321324	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f294167ca991957b
-8043	8290	6982558436106439	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	c9b0306f8693284b
-8346	8376	6982558437063860	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	f90e5b0975ef9633
-33	117	6998149888660408	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/startup_stm32f10x_md.o	61e308a59fdf8af1
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	b3cf6bb26c206303
-3	6600	6998149952067798	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	b3cf6bb26c206303
-6677	6884	6998149956353743	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	17dd031353c6fe70
-6922	6943	6998149956974973	C:/Users/Michelangelo/Desktop/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	b5a2f5b3974b0f33
-40	392	7023947583933162	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/startup_stm32f10x_md.o	f566814dc3c6043e
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f8f30406e35f4a6a
-6	6958	7023947647749764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f8f30406e35f4a6a
-7049	7303	7023947652932228	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	cb755b7d386cbf1f
-7359	7382	7023947653844113	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	cd7adaac63861beb
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f8f30406e35f4a6a
-6	5676	7023994595756405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f8f30406e35f4a6a
-5752	5896	7023994599339337	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	cb755b7d386cbf1f
-5939	5958	7023994600007750	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	cd7adaac63861beb
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f8f30406e35f4a6a
-2	5866	7042950841690382	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f8f30406e35f4a6a
-5947	6085	7042950845136486	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	cb755b7d386cbf1f
-6131	6148	7042950845815045	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	cd7adaac63861beb
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f8f30406e35f4a6a
-1	6125	7042977070794487	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f8f30406e35f4a6a
-6206	6346	7042977074395230	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	cb755b7d386cbf1f
-6391	6410	7042977075072797	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	cd7adaac63861beb
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/EKF_Lib.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/FCAL_STORAGE.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/GUI_Layer.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/LSM9DS1.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/main.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/misc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_adc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_bkp.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_can.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_crc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dac.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dbgmcu.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_dma.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_exti.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_flash.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_fsmc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_gpio.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_i2c.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_it.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_iwdg.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_pwr.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rcc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_rtc.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_sdio.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_spi.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_tim.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_usart.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/stm32f10x_wwdg.o	f8f30406e35f4a6a
-3	5876	7042980568986624	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Obj/system_stm32f10x.o	f8f30406e35f4a6a
-5953	6087	7042980572430773	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/GettingStarted.out	cb755b7d386cbf1f
-6127	6143	7042980573023993	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/Exe/HANDi_FOO.hex	cd7adaac63861beb
-2	54	7042983794825117	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/startup_stm32f10x_md.o	df3179c9adb60f07
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/main.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/misc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	c59f24ed3682b12b
-11	5758	7042983850605826	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	c59f24ed3682b12b
-5815	5956	7042983853812941	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	6306d099885c1e51
-5986	6001	7042983854304293	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	c9b5209818b12bfa
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
+382	598	7309211680383843	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/startup_stm32f10x_md.o	8a8fdf7830447be
+5849	5862	7376428194008008	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
+5697	5822	7376428193559211	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
+2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
+2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
+5642	5767	7376432172850015	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
+5805	5818	7376432173399743	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
+1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
+5677	5795	7376434278939578	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
+5820	5834	7376434279378412	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8

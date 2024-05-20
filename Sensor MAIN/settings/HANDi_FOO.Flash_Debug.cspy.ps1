@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.general.xcl" --backend -f "C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.general.xcl" --backend -f "D:\Firmware\Codici Olimpia\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Firmware\Codici Olimpia\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Firmware\Codici Olimpia\Sensor MAIN\settings\HANDi_FOO.Flash_Debug.driver.xcl" 
 }

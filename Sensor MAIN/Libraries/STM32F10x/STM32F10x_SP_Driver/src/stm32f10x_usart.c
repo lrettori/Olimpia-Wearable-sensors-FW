@@ -564,9 +564,11 @@ void USART_SendData(USART_TypeDef* USARTx, uint16_t Data)
     
   /* Transmit Data */
   USARTx->DR = (Data & (uint16_t)0x01FF);
-  int A = 0;
-  A++;
+//  int A = 0;
+//  A++;
 }
+
+
 
 /**
   * @brief  Returns the most recent received data by the USARTx peripheral.

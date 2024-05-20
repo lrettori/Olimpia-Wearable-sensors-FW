@@ -1,41 +1,41 @@
-"C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\stm32f10x_fsmc.c"
+"D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\stm32f10x_fsmc.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_fsmc.pbi.dep
+D:\Firmware\Codici Olimpia\Sensor FIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_fsmc.pbi.dep
 -o
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_fsmc.pbi
+D:\Firmware\Codici Olimpia\Sensor FIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_fsmc.pbi
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\
+D:\Firmware\Codici Olimpia\Sensor FIN\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\board\
+D:\Firmware\Codici Olimpia\Sensor FIN\board\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\SysConfig\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\SysConfig\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\EKF_Lib\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\EKF_Lib\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\FCAL_FLASH_Lib\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\FCAL_FLASH_Lib\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\App\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\App\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\CMSIS\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\CMSIS\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\CMSIS\startup\iar\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\CMSIS\startup\iar\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\LSM9DS1\inc\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\LSM9DS1\inc\
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\LSM9DS1\src\
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\LSM9DS1\src\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -47,31 +47,31 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN
+D:\Firmware\Codici Olimpia\Sensor FIN
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\board
+D:\Firmware\Codici Olimpia\Sensor FIN\board
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\SysConfig\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\SysConfig\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\EKF_Lib\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\EKF_Lib\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\GUI_LAYER\FCAL_FLASH_Lib\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\GUI_LAYER\FCAL_FLASH_Lib\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\App\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\App\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\CMSIS
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\CMSIS
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\STM32F10x\CMSIS\startup\iar
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\STM32F10x\CMSIS\startup\iar
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\LSM9DS1\inc
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\LSM9DS1\inc
 -I
-C:\Users\Michelangelo\Desktop\FINALE\Firmware\Sensor FIN\Libraries\LSM9DS1\src
+D:\Firmware\Codici Olimpia\Sensor FIN\Libraries\LSM9DS1\src
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -I

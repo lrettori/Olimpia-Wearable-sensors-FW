@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.general.xcl" --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Michelangelo\Documents\IAR Embedded Workbench\SDK v.17.1.0\examples\ble_peripheral\ble_app_uart\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.general.xcl" --backend -f "C:\Users\Michelangelo\Documents\IAR Embedded Workbench\SDK v.17.1.0\examples\ble_peripheral\ble_app_uart\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.2\common\bin\cspybat" -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.general.xcl" "--debug_file=%~1" --backend -f "D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Michelangelo\Documents\IAR Embedded Workbench\SDK v.17.1.0\examples\ble_peripheral\ble_app_uart\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Michelangelo\Documents\IAR Embedded Workbench\SDK v.17.1.0\examples\ble_peripheral\ble_app_uart\pca10040\s112\iar\settings\ble_app_uart_pca10040_s112.nrf52832_xxaa.driver.xcl" 
 
 @echo off 
 :end
