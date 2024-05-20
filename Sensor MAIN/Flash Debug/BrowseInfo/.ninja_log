@@ -1,0 +1,185 @@
+# ninja log v5
+8129	8382	6884847042877301	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.pbi	19216d71d84331b5
+19	667	6884846960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.xcl	f12c54c2aa26b6e
+43	784	6884846900000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/EKF_Lib/EKF_Lib.xcl	aa11b0ba014202f7
+6	48	6884841485118074	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LED/LED.pbi	e893cdbccc19e2df
+8548	8802	6884847047096012	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part1.pbi	2a5814f49e65a0c1
+3612	3957	6884846998615655	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.pbi	fe8def8d001a0ece
+3963	4793	6884847000000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.xcl	acc70ce6260008d1
+2776	3689	6884846990000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.xcl	425af4afd2423462
+1695	2649	6884846980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.xcl	4d2266d0e5d2c61b
+7106	7393	6884847032973774	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.pbi	354007398f6a259a
+7351	8067	6884847030000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.xcl	98a687c3100775a8
+4854	5229	6884847011341635	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.pbi	d93546549ae9aca6
+22753	27503	6879578220000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LED/LED.xcl	85a1f81823556751
+868	1700	6884846970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.xcl	133f9fb6d7848f50
+2645	3550	6884846990000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.xcl	4d111e779314b2bb
+2710	3618	6884846990000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.xcl	b3d7a41d7aec62bf
+4658	4968	7023208699588115	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.pbi	13441e284bd40b85
+6367	7043	6884847020000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.xcl	13f161fd98856dc5
+7397	8132	6884847030000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.xcl	ae3335803afe6459
+6297	10428	6884847060000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.xcl	b1327b60726eafa2
+7635	7941	6884847038449134	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.pbi	c914dcfd0f080c8d
+5087	5416	6884847013166745	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.pbi	388e5aba153adb65
+937	1770	6884846970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.xcl	7dd655bd7a589178
+3827	4668	6884847000000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.xcl	452813a02040cb29
+3973	4349	6884847002475338	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.pbi	4bc2b6bfe2bf623a
+5	709	6884846900000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/GUI_Layer.xcl	5b3eb3cf8a1f2b0e
+4737	5094	6884847009945446	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.pbi	cf1babedc6907768
+39	853	6884846900000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.xcl	1e944d54da8192cf
+5196	5380	7023208703707103	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.pbi	611c608056e21c7c
+722	1191	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.xcl	bfc05a7778f126e6
+5068	5404	6884847012937363	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.pbi	c58e680fb4672051
+6926	7575	6884847030000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.xcl	a098a616cd3cffba
+4	872	6884846960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.xcl	79d876e423791c32
+12	732	6884846960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.xcl	8443873afa3a89c6
+3915	3969	6884846998735347	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.pbi	9d4ef4b4ea2807d7
+621	902	6886740139933140	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	30ceab663b44634b
+5233	5557	6884847014533296	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.pbi	505a196bf569a982
+2647	2924	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/stm32f10x_it.xcl	6f51d3602b8147d4
+6057	6357	6884847022661364	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part2.pbi	bf4bf0d98d6df2be
+49	955	6884846900000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.xcl	422e23925f376fee
+1833	2716	6884846980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.xcl	4544c5a51d5b3c4b
+9	803	6884846960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.xcl	9de831fa3b1fdd66
+5435	5758	6884847016587623	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.pbi	31ffabd38f2b5042
+8193	8542	6884847044473026	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.pbi	9feef1f575dbaa4c
+3755	3823	6884846997269266	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/GUI_Layer.pbi	50c825041ebe6147
+5855	6291	6884847021953255	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.pbi	99a3a8c4f40c4419
+1632	2518	6884846980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.xcl	749fdc17a020ef10
+3681	3813	6884846997129640	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/EKF_Lib/EKF_Lib.pbi	91f18b2b3bdb01ee
+1764	2585	6884846980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.xcl	c2333a5e2b9a6a15
+727	1570	6884846970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.xcl	a78df212516039f1
+797	1636	6884846970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/stm32f10x_it.xcl	ae55f9e05ef677fb
+2580	3484	6884846990000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.xcl	69551722252d3ae7
+483	610	6886740137041189	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e05bd335760c8b03
+3817	4596	6884847000000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/CMSIS/system_stm32f10x.xcl	568a31e31a15a8e6
+3547	3909	6884846998116989	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.pbi	22d1e1aef7441be2
+4353	4731	6884847006115616	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.pbi	757d1803d9314c52
+5099	5430	6884847013256512	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.pbi	447e050fe2569e3b
+4660	5063	6884847009656131	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.pbi	b8a5cd24af18d56c
+5409	5735	6884847016408098	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/stm32f10x_it.pbi	539a7a22b63e1477
+4726	5081	6884847009835672	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.pbi	791ddcd5e03c8eac
+6192	6628	6884847025284339	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.pbi	5cd7679a4b259b6b
+800	1112	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.xcl	c89ae22f16f71099
+6080	6374	6884847022840878	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part3.pbi	d69e3b98dbb99fb3
+5762	6052	6884847019549679	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/CMSIS/system_stm32f10x.pbi	70f2e21b47606e07
+5420	5850	6884847017545037	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.pbi	9f91647defe018cc
+5740	6075	6884847019779071	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.pbi	30e2432a177b8b6b
+5883	6184	6884847020925994	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part4.pbi	c7633cb2a8f0081
+5563	5877	6884847017824288	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.pbi	105b7f3eee78a017
+6633	6918	6884847027897351	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part5.pbi	597151de90ee5f20
+4383	4592	7023208695832991	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.pbi	48546b72c11272cd
+6384	6853	6884847020000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LSM9DS1/LSM9DS1.xcl	cdcc1ba96dcf3cac
+15	479	6886740135704447	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	939a489fc43bcbac
+6	347	6884973890869235	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LSM9DS1/LSM9DS1.pbi	b2b3518e4fb13954
+913	3123	6886740161561848	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	11fcc1dbc5148667
+4171	4377	7023208693683945	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.pbi	ca63bc0425b2309b
+1034	1434	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.xcl	dd07b5a4c9062fb6
+2733	3165	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.xcl	8b06853f706ae1ad
+5403	5618	7023208706100749	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part1.pbi	286670647eae4456
+361	746	7024695861208990	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+212	488	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/EKF_Lib/EKF_Lib.xcl	9b71ae3bb8807917
+2489	3084	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.xcl	8d5a0a1d356b4239
+4	200	7024695855721081	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+4338	4528	7023208695179640	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.pbi	65f918fe7232f63c
+2246	2654	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.xcl	c0258030bf8952bd
+2008	2424	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.xcl	c44fbbef2f6cb126
+3241	3375	7023208683652640	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/EKF_Lib/EKF_Lib.pbi	49b75f99423c951e
+759	3682	7024695889821948	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+5498	5699	7023208706918519	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part4.pbi	d2d011d3873550c9
+3588	3939	7023208680000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/CMSIS/system_stm32f10x.xcl	7c039ffb2280a42a
+176	567	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.xcl	1f9e89652df0bc18
+225	644	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LSM9DS1/LSM9DS1.xcl	2e67fe591b8b74bd
+217	727	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/GUI_Layer.xcl	ba0e0f58a6841eb5
+638	963	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.xcl	620db7fd08a06488
+563	1039	7023208650000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.xcl	c091052b59d32f51
+1184	1513	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.xcl	7c3eae374b2256e
+1107	1592	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.xcl	3a667a6bcab9b83d
+1270	1676	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.xcl	fce8cb21830b202a
+1587	1940	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.xcl	3e3e24a0f355a6b7
+1669	2015	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.xcl	513c883103ea1731
+1508	2091	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.xcl	415b95770f6be0af
+1754	2173	7023208660000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.xcl	9c1ee5ae4b8fef7c
+2166	2495	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.xcl	66b68d1eaaafbe7f
+2087	2576	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.xcl	357deaa96b192a59
+2567	3008	7023208670000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.xcl	2917902dbe40e75f
+3380	3432	7023208684231099	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.pbi	453637d850c3c7b6
+3159	3442	7023208680000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.xcl	8352273aeb81556
+3003	3515	7023208680000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.xcl	30bc92e33a1f6ced
+3077	3593	7023208680000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.xcl	80a4f043058ad2ff
+3437	3675	7023208684689890	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/GUI_LAYER/GUI_Layer.pbi	4665c08107c7c7ea
+3510	3857	7023208680000000	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.xcl	f08f22dc9feffc91
+3681	4022	7023208690075500	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.pbi	d8ee5b6f70d6c396
+3671	4057	7023208690484400	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/LSM9DS1/LSM9DS1.pbi	ac0b028e6aa30ebc
+3935	4162	7023208691531591	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.pbi	6385a12d635de662
+4017	4239	7023208692297645	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.pbi	b854c1d812c077c3
+4062	4260	7023208692517063	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.pbi	f00d1c1029bf1cbf
+4245	4433	7023208694238407	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.pbi	951cafd9b8fd2a61
+4268	4573	7023208695638412	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.pbi	68b9bf1fdbe22cfe
+4440	4653	7023208696421411	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.pbi	53351b16dc923ef3
+4534	4742	7023208697324168	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.pbi	4a9c96ca64194371
+4579	4766	7023208697575933	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.pbi	f0d250611535a0a2
+4598	4808	7023208697992377	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.pbi	c2d6d31621c834d1
+4	295	7023947482550763	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.pbi	9bfd1b6e2e0a0e4e
+4771	4952	7023208699428536	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.pbi	7e513a274affd5d4
+4814	5008	7023208699987049	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/stm32f10x_it.pbi	992194a9e6afaff0
+4747	5043	7023208700336123	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.pbi	65cb735aa06d6ff1
+4958	5157	7023208701493019	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.pbi	4d154e0df209438e
+4975	5189	7023208701802195	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.pbi	d9e53095bf7e9880
+5013	5226	7023208702171221	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.pbi	50c13b42c9647e22
+207	350	7024695857258796	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+5165	5392	7023208703796867	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part2.pbi	86c29f9c99ee9568
+5232	5462	7023208704544878	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part3.pbi	c505a28f3c0fbca6
+5386	5575	7023208705661885	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/CMSIS/system_stm32f10x.pbi	eab9a3c030bd281
+5474	5758	7023208707496979	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.pbi	ef7314806c2a7ab8
+305	512	7023947484745330	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part5.pbi	c72110a34ec214f1
+4	239	7024696044561847	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+245	395	7024696046167271	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+406	816	7024696050366442	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+828	3737	7024696078853213	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+6	308	7024696133077621	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+314	443	7024696134457386	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+452	828	7024696138304405	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+837	3944	7024696168444935	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+7	244	7024701417023476	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+250	419	7024701418802965	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+433	917	7024701423782140	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+930	4270	7024701456428194	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+4	197	7024701509729951	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+203	338	7024701511145764	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+352	736	7024701515125480	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+747	3956	7024701546521820	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+6	509	7024907119353419	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+517	769	7024907121970344	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+783	1281	7024907127093958	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+1295	4440	7024907157877083	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+6	286	7042951001269603	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+295	531	7042951003733014	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+551	1156	7042951009986296	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+6	3872	7042951108237302	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+7	213	7042976985653793	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+220	368	7042976987207904	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+381	796	7042976991459810	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+5	207	7042977077785455	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+212	349	7042977079211741	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+360	769	7042977083420649	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+782	3866	7042977113610925	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+6	254	7042980417894566	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+261	421	7042980419569285	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+431	964	7042980424977129	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+982	4350	7042980458032638	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+5	241	7042980576468782	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+247	393	7042980578006599	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+404	850	7042980582570062	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+5	322	7042980655006288	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/App/main.pbi	e99216497e6e2f0c
+329	480	7042980656594674	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO_part0.pbi	e9d1088759b9d824
+492	942	7042980661218694	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbd	71c6e5cac79c771b
+6	3030	7042980764905581	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Wirst and Foot]/Flash Debug/BrowseInfo/HANDi_FOO.pbw	fe34249288ec231c
+180	4755	7042983740000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.xcl	f7d56ff369d3c908
+187	4811	7042983740000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.xcl	831d1c3745e56fb
+167	4866	7042983740000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.xcl	5ecc0cc688ab1c3c
+174	4922	7042983740000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/GUI_LAYER/EKF_Lib/EKF_Lib.xcl	8c2fac7464a89e2c
+4806	8976	7042983780000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.xcl	8807c1fc2ececfca
+4918	9042	7042983780000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.xcl	2cacf664b5bfc9ed
+4974	9096	7042983790000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.xcl	5aeb36681d615a7c
+4861	9163	7042983790000000	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor MAIN/Flash Debug/BrowseInfo/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.xcl	9d511501660cb8f2

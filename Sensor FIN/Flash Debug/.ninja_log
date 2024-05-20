@@ -1,0 +1,193 @@
+# ninja log v5
+996	1363	6884922962419328	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	24478c5fdee13b25
+2235	2509	6884922973896404	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	b17c7f0b9eb9d28
+26	440	6884860048598021	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/CMSIS/system_stm32f10x.o	2f73cf933c0f7b95
+5	39	6884860045026112	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/CMSIS/startup_stm32f10x_md.o	7c1bdd4793552b86
+6	486	6884858930781877	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_bkp.o	53645e8767b5296c
+2527	2930	6884858955519815	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_spi.o	e4480fed80bc37a8
+1089	1430	6884858940484924	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_exti.o	b275fc38e9959cc5
+10	85	6884923660987596	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/GUI_LAYER/src/GUI_Layer.o	62bb63e96ae84dc6
+1479	1850	6884858944573990	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_dma.o	b884ded3e30296ce
+31	537	6884858931011299	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/misc.o	8fe6bab0381baf3d
+945	1176	6884863923984054	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/LED/src/LED.o	d84861f04c28e752
+457	985	6884858935937096	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_adc.o	3a7dd1a89c8f5e6f
+2753	3164	6884862280181403	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Sensor_Lib/LSM9DS1/src/LSM9DS1.o	a2eb8dc313cbdb95
+2670	3209	6884858958302856	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_tim.o	83b472c501c2a6fc
+1560	1901	6884922967788077	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	6ae6424e713a4be7
+904	1237	6884858938550097	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_crc.o	d5b1a5b8d0b75723
+356	495	6886723320426352	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+1006	1456	6884858940544763	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_dac.o	f7f216ab417a1b31
+532	804	6884858934242634	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_dbgmcu.o	baafe0938d5347b5
+560	1064	6884858936834689	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_can.o	878f5b71df4e79ca
+2001	2295	6884922971727044	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	dca29c6321d3ec36
+1871	2194	6884858947835261	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_iwdg.o	81ee3c50958b0033
+1450	1800	6884858943995540	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_gpio.o	83390fae86cffdac
+826	1303	6884858939208327	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_i2c.o	55840e9e445a906e
+2316	2654	6884922975182967	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	e9d61072286a5aba
+1822	2145	6884858947576024	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_pwr.o	a1f6b3e1d7168c26
+2	295	6884922951876516	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	bdf045b62c8c488e
+1322	1776	6884858943925756	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_fsmc.o	fd8cae3de0df7bef
+1257	1697	6884858943187706	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_flash.o	f429ef3f256e5a87
+2043	2364	6884922972430315	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	a33f23aa01059b5f
+1828	2407	6884922972579915	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	58553974525146d9
+2	334	6886723318700858	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+2214	2600	6884858952109042	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_sdio.o	cc109b43bc33ca73
+302	590	6884922954116403	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	9528dbf54f7e0c95
+2165	2551	6884858951540444	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_rtc.o	fda2619cc83ef52d
+2300	2649	6884858952358315	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_wwdg.o	9025900fd097db97
+2083	2506	6884858951261198	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_rcc.o	b4bbeb9d09bfa138
+265	516	6884922953966799	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	ad4c0888ebd135b7
+2622	2983	6884858956008528	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/StdPeriph_Driver/stm32f10x_usart.o	753cfe05f11b36a
+2383	2582	6884922974634429	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	283eb3a9fc8ed96d
+13	337	6880480996430133	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Vectors/src/stm32f10x_it.o	e0a6fa2c30e99f90
+1719	2021	6884922968725644	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	5127f059ed531620
+14	151	6884911215655366	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/LED/LED.o	e4c126d9aa5f997f
+538	553	6886723321044689	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+658	937	6884922958180665	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/stm32f10x_it.o	4b77cb1ab3acd450
+902	1170	6884922960474542	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	48d808509b0857da
+1192	1497	6884922963765727	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	78d40b56c7593db2
+581	881	6884922957432720	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	1f6312697b6a7b0a
+860	1275	6884922961222538	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	b8629eba1b6c6bdb
+1665	1980	6884922968595987	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	1e112e3099bad624
+1921	2214	6884922970909238	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	cb6c38ff0b134817
+261	637	6884922955049070	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	2985ce9920fbb8a9
+539	839	6884922957153418	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	64238f093e322d5
+1301	1699	6884922965770547	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	6848e0793708e005
+257	560	6884922954076513	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	7e45ff7d6ebef4eb
+1517	1806	6884922966860555	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	3bbed70f4bb87ddd
+1383	1644	6884922965241978	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	db6a22e8fbada27c
+1250	1537	6884922963855491	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	afe5b55d8d8f289d
+3	313	6886729097525572	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+334	470	6886729099170792	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+517	529	6886729099809278	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+3	341	6886732863135262	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+364	509	6886732864890572	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+555	568	6886732865518886	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+3	267	6886733737007939	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+287	411	6886733738510156	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+451	465	6886733739095941	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+2	266	6886735093463800	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+290	412	6886735095005239	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+460	474	6886735095653245	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+2	244	6886735512584973	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b0f8b74d77f12a36
+267	386	6886735514130838	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	30805b447b873bc8
+428	441	6886735514719282	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	90b7cb23bb97666f
+1	297	6904023096073331	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	a33bffda5b8f3307
+254	722	6904023100172958	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	e419203a8569bfd3
+264	752	6904023100172958	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	3b65fbc64c7f7434
+258	808	6904023100543818	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	bafeec20804697e5
+306	836	6904023100612150	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	325a2993aa90316f
+747	1072	6904023103686574	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	171c24481c4d0d3a
+831	1118	6904023104125739	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	b25e0d180c4aa511
+861	1155	6904023104047658	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	a22e7c1b9602c215
+775	1351	6904023106352960	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	7f48ed68fef6192
+1146	1575	6904023108612148	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	daadea1b5c35740a
+1181	1629	6904023109210009	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	56aea1de1e71d723
+1096	1683	6904023109473507	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	df31f5fc6ce99e89
+1379	1763	6904023110550191	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	b5baff5999d7b77b
+1654	1953	6904023112497557	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/App/stm32f10x_it.o	5efdcce0b6eef9e8
+1599	2059	6904023113522337	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	216a827cbd074734
+1710	2138	6904023114303143	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	aa7ca3e04fc9f472
+1788	2216	6904023115122976	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	d3de855cdf201c6f
+1979	2315	6904023116138009	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	7d7385006ad61da5
+2164	2430	6904023117279929	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	208402daff554e58
+2085	2473	6904023117592258	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	6acbaa395328fcad
+2239	2592	6904023118900089	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	d4577acc9b26e2fc
+2338	2636	6904023119241686	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	5596c57d55fdc15c
+2453	2771	6904023120701037	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	b03f0dc362428c61
+2496	2837	6904023121340537	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	9401cc68d4934787
+2617	2874	6904023121672366	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	f27d9bd8469dfd43
+2659	2969	6904023122706924	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	880cb30463b57df8
+2797	3224	6904023125215239	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	be1d1700c6f9b772
+3245	3452	6904023127587369	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	975b09e7fb4c20ea
+3504	3524	6904023128348208	C:/Users/Michelangelo/Desktop/arm_blinkled/Backup [versione 17-11-2022]/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	8098aa665f27c28
+34	304	7024915168568391	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	2c78e97f6fd483c0
+14	335	7024915168647921	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	a0e33c1a65335e9
+2	410	7024915169575421	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	8b2e92fbd4f3ac75
+23	431	7024915169615331	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	991a585e909023a1
+323	616	7024915171703348	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	173ed69838369769
+426	658	7024915172062177	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	3013a1fec7515eb4
+448	700	7024915172461059	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	4ce69a115dcbb60c
+353	756	7024915173088274	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	89d19d8f72c06d80
+633	930	7024915174813622	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	ef831e50e1c8ed0
+720	983	7024915175352181	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	c3f83e734265643d
+680	1029	7024915175521744	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	8a9961d1f883b631
+774	1097	7024915176474606	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	d600b944a57dd0a5
+949	1232	7024915177855946	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	e6b03408dec1d815
+1113	1397	7024915179446860	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	b1558466df47658c
+1049	1440	7024915179716112	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	ef05d9b7ce8e5cca
+1002	1478	7024915179855745	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	8b9f5ec2f36b7e4a
+1250	1762	7024915182977445	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	3419343f672e73b2
+1493	1931	7024915184752659	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	c0a7c32e63dac992
+1411	1982	7024915185181576	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	cdd428c004b793d8
+1778	2223	7024915187744755	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	f5355abcdce6473f
+1458	2309	7024915188552501	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	ed68e22a4726bd2d
+1949	2382	7024915189280559	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	c0f6fc328e5b2851
+1999	2437	7024915189858996	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	f42421cfb7fbba91
+2401	2470	7024915190337731	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	f44c5883bd33f6e5
+2243	2571	7024915191235327	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/App/stm32f10x_it.o	de87bd51002e5183
+2455	2728	7024915192801144	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	98f6a558d157c1a6
+2330	2764	7024915193150202	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	b44ff2587ace62d8
+2781	2937	7024915194995268	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	256c3ad62baf8036
+2971	2985	7024915195513878	C:/Users/Michelangelo/Desktop/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	6802bc280f87d4d8
+20	294	7042977920207679	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	ce80bd1af14b0d2c
+8	320	7042977920237595	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	491e24a2d546f597
+13	368	7042977920447033	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	91b687af52901ec2
+1	396	7042977920596639	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	e9031b36cfef98f7
+315	712	7042977924356591	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	a92020daff78104c
+391	768	7042977924915087	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	7e967b33d3a229b3
+343	821	7042977925373865	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	a52c8efda7d40496
+418	873	7042977925822656	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	b70012362a8dec00
+796	1100	7042977928266133	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	4b1f619fdebd578d
+847	1153	7042977928575294	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	4044efcb54836f86
+735	1206	7042977929203613	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	fdf61e8cc2ea177
+899	1270	7042977929921686	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	aed36dba62948ede
+1233	1306	7042977930470323	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	13d6570207a83694
+1179	1508	7042977932295338	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/App/stm32f10x_it.o	43946f169de41a9c
+1294	1589	7042977933133100	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	5a3e67f7537c00fa
+1126	1646	7042977933472188	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	f4f303c3ded06e0
+1314	1679	7042977933611817	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	4ff50b5a7290f48
+1537	1882	7042977936125082	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	6e3e2bf8c79c3d89
+1614	1965	7042977936922943	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	41c4b4579b55e7b3
+1672	2009	7042977937252060	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	e41c55b0e7dcd3e5
+1703	2085	7042977938129714	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	8bf8729054615dda
+1903	2210	7042977939406301	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	3399eddd37407b9f
+2031	2362	7042977940892340	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	c908c1c621ac39d5
+2106	2412	7042977941161873	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	fd65ea7f4faf33e0
+1988	2468	7042977941769973	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	91869941e23291a1
+2230	2558	7042977942857064	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	527246682836316a
+2388	2665	7042977943914247	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	e413e9093bdc40e1
+2688	2818	7042977945553868	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	7a0ab516e0e81776
+2871	2884	7042977946255393	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	81364608c7806d44
+2	238	7042981358569435	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Obj/App/main.o	f4f303c3ded06e0
+258	378	7042981360047671	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Exe/GettingStarted.out	7a0ab516e0e81776
+430	443	7042981360720413	E:/Archivio/Università/Post-Doc/OLIMPIA/BACKUP 01-03-2023/Firmware/STM32F10x [Finger]/Flash Debug/Exe/HANDi_FIN.hex	81364608c7806d44
+31	407	7042983535939724	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	e8dfea2db2e1472b
+19	432	7042983535959680	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	5cb1ae48652ea098
+13	456	7042983536019521	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	200f9d491c6501fa
+2	502	7042983536827422	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	a50ca7aa46d8a225
+450	704	7042983538921753	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/App/stm32f10x_it.o	9a3fc389e6b75ef0
+521	756	7042983539460298	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	b0d7d78e2c7a914
+425	798	7042983539779442	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	e58fd96e84737005
+475	871	7042983540587286	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	d46e17c910c8b61d
+726	1019	7042983542073309	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	899705bcfe64dca1
+777	1059	7042983542402433	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	ad3249513c4dbd28
+816	1101	7042983542711600	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	4f49487225af39dc
+888	1301	7042983544786053	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	39a845778c0e377b
+1121	1561	7042983547468946	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	1b65c75ac785b042
+1037	1613	7042983547857860	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	c9d6c3068783359d
+1080	1710	7042983548915012	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	aafb99cb0cbccc33
+1319	1866	7042983550520705	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	818e294165ef68e2
+1631	1966	7042983551508077	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	7565d525fb3ab9c5
+1580	2039	7042983552236130	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	63d063698492b3ff
+1732	2168	7042983553532655	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	983890ec4a23bbd5
+1886	2282	7042983554669610	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	7b18351b144d2518
+1987	2368	7042983555517369	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	45f407bb4b2533c1
+2057	2414	7042983555926238	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	bb9391e14012360e
+2389	2448	7042983556494734	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	31b05744b19ef7eb
+2456	2721	7042983559097751	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	54d8eb5f196f26d3
+2303	2763	7042983559297226	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	46271fb1bffcb17a
+2435	2817	7042983560035272	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/App/main.o	1087e956d0f427ae
+2188	2854	7042983560204789	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	f282b814c7054020
+2874	3020	7042983562189491	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Exe/GettingStarted.out	f596aa9e93093152
+3061	3079	7042983562817812	C:/Users/Michelangelo/Desktop/FINALE/Firmware/Sensor FIN/Flash Debug/Exe/HANDi_FIN.hex	2a2b772e887b59eb

@@ -1,0 +1,207 @@
+# ninja log v5
+4	256	6871103027091959	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/misc.o	5db7cfcbc42cd7e
+3359	3752	6871103062070622	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/src/FCAL_STORAGE.o	fa8e21ebfa820d12
+13	307	6871103027101944	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_crc.o	47fda7c7b9a76796
+2034	2451	6872042058699593	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dma.o	ed1faa28ef89a7bf
+9	382	6871103027909767	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_adc.o	128a1ed15eb70ed2
+22	442	6871103027341303	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dac.o	68c241b5f21912c4
+497	815	6871103032223407	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_gpio.o	a0626a56bd26bb59
+1640	2039	6871103044315689	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_usart.o	50c2206df35d88e0
+303	671	6871103031265995	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_bkp.o	b091f1e724651373
+436	745	6871103031864367	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_rcc.o	995ec6a11214dbc7
+361	876	6871103032602397	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_can.o	826ebd1283bede8c
+1330	1644	6871103040241431	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dma.o	f47245f4e6a072d8
+2444	2800	6872042062369757	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_pwr.o	b0b7b655fb90aa9a
+725	1101	6871103035569534	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_pwr.o	fecb797d7460d103
+796	1164	6871103035629379	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_rtc.o	75b1737288203bd5
+1265	1515	6871103039701212	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_exti.o	c3f7543959996ce3
+1148	1701	6871103040121776	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_flash.o	545c10e5f41692b4
+927	1217	6871103035858779	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_iwdg.o	62aa9dee26df6dea
+3326	3742	6872042071912649	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_usart.o	29b4361da6528971
+1755	2175	6871103046268206	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_tim.o	3657c7643f2fef0f
+831	1217	6872042046671289	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/src/EKF_Lib.o	8328064825a41a5
+871	1281	6871103036262753	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_i2c.o	e122e3e2edf57b2d
+1212	1589	6871103040321220	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_fsmc.o	e77567ecab07a921
+2912	3282	6872042067379615	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_spi.o	9b5ffe07ae4ecf28
+2260	2739	6872042061910993	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_rcc.o	97024889f233c751
+1567	1909	6871103043637522	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dbgmcu.o	3f06b790da1d3a3d
+1696	1980	6871103043827014	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_wwdg.o	60b8be99c986977a
+1961	2297	6871103047500180	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/Vectors/src/stm32f10x_it.o	6e92c6429061d0ea
+491	1017	6872042044770409	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/LED/src/LED.o	32a96088d5c32f24
+2095	2710	6871103047988612	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_sdio.o	8c3fe01110ecf7cb
+2033	2772	6871103048228245	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_spi.o	c15c82ae403b5ad
+15	733	6872042041848279	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+2348	2840	6871103053058078	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/CMSIS/startup_stm32f10x_md.o	91078515e5c11659
+2829	2908	6871103053676419	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/GUI_LAYER/src/GUI_Layer.o	f1992257a96dcbce
+286	790	6872042042067647	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Sensor_Lib/LSM9DS1/src/LSM9DS1.o	8db3d95b3b8ff1ce
+2224	2979	6871103054015499	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/BLE_Lib/src/BLE.o	7c3db467c9f3805
+2768	3238	6871103056907767	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/App/main.o	e7083e144206bcdb
+3407	3691	6872042071533670	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_wwdg.o	3d25bb4813047652
+2961	3307	6871103056997545	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/LED/src/LED.o	816d065e9ed7b1ed
+3029	3364	6871103057177064	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/CMSIS/system_stm32f10x.o	c21c12fb293d13fd
+2850	3418	6871103057326663	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/Sensor_Lib/LSM9DS1/src/LSM9DS1.o	5b54f626b939737d
+2778	3153	6872042066103021	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_rtc.o	60b76a5f0f22464d
+3290	3644	6871103061007368	E:/Archivio/Università/Post-Doc/OLIMPIA/Firmware development/Olimpia Former Firmware/OLIMPIA - FOOT (2.4LP) - Copia/RAM Debug/Obj/GUI_LAYER/EKF_Lib/src/EKF_Lib.o	40c10be162ee2ae7
+25	59	6872042035275586	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/CMSIS/startup_stm32f10x_md.o	c06a4ab7d944ecfe
+8	453	6872042039105542	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/BLE_Lib/src/BLE.o	4dc0017ea73163e8
+769	1153	6872042046106852	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/CMSIS/system_stm32f10x.o	34f64d1486404137
+902	1263	6872042046402011	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_crc.o	3c717de855d2125d
+1195	1593	6872042050321540	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/misc.o	8f5d913a35e29af2
+1710	2127	6872042055368497	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_gpio.o	48fa2aba91b7bf11
+1463	1995	6872042054470884	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_adc.o	f14a7c5e2aaba8d9
+1304	1663	6872042051174367	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dac.o	6f0e732c58c792e2
+1257	1762	6872042052077103	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_can.o	2235b265d50b92bd
+1057	1423	6872042048845477	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_bkp.o	10c1fbb537fbb7b8
+2167	2519	6872042059617121	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_dbgmcu.o	28e5fa980a3f6e54
+2105	2406	6872042058589863	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_exti.o	b9d0766fd7812f07
+1802	2223	6872042056724866	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_flash.o	c8557781958121b3
+1630	2063	6872042055178992	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_fsmc.o	66a27bd16723795f
+2557	2870	6872042063162757	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_iwdg.o	7af2fb28b9cc7623
+2492	2938	6872042063701302	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_i2c.o	f4e58662cd868dae
+33	249	6872042037130820	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/src/GUI_Layer.o	447736c25e4a98d4
+3194	3516	6872042069738465	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Vectors/src/stm32f10x_it.o	ad7f3cb6098bcfea
+64	859	6872042042905378	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/src/FCAL_STORAGE.o	73d80c13270c2a28
+2840	3564	6872042069828230	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_tim.o	b2d88e169a4f5744
+2978	3365	6872042068207413	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/StdPeriph_Driver/stm32f10x_sdio.o	83ff668c8721c06a
+3781	3922	6872042073917291	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+13	368	6872010463911165	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/stm32f10x_it.o	a3e33673f99351a1
+5	650	6872630370481897	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+691	984	6872630373909826	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+4	363	6872631597692429	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+406	538	6872631599528748	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+4	317	6872631925003026	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+363	510	6872631927045988	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+4	420	6872633729507359	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+480	609	6872633731502491	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+4	622	6872637464399464	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+663	1005	6872637468333409	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+11	450	6872638483896631	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+486	656	6872638486038090	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+6	387	6872639417498814	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+426	611	6872639419824871	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+4	393	6872639820390272	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+430	584	6872639822384338	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+6	395	6872645928916762	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+432	612	6872645931155856	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+5	425	6872646967825639	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	45ea156fb5bec900
+462	638	6872646970039727	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	db7948ef56a7caa5
+21	73	6877085488921699	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	5707f4c091ab31d0
+4	449	6877085492527095	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/stm32f10x_it.o	362c131594ffa9fc
+26	565	6877085493025756	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	c266a1ebfd3cd3b4
+79	718	6877085495199938	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	62da05590907a69e
+557	899	6877085497045000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	29a837e60cd6d3dd
+492	969	6877085497134761	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	eeec0c8ead93ce48
+615	1198	6877085499917557	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	971615d7ee578532
+765	1282	6877085500436137	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	28a3b5c21600d6da
+944	1342	6877085500815128	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	3fc1f40760d7368d
+1019	1510	6877085503176355	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	21e731493f478f2c
+1250	1670	6877085504767550	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	2bfe703088c6bbf4
+1392	1746	6877085505410937	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	c312005e1f0c9576
+1336	1823	6877085506029281	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	7b9c053c929947cd
+1556	2024	6877085508263709	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	f4613bc68a0f2d8e
+1722	2155	6877085509585417	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	d4cca2376404786e
+1798	2207	6877085509665213	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	b698d6aca1b1a411
+1875	2324	6877085511260932	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	112f4fcc2945167f
+2200	2535	6877085513385260	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	9b79fa7f850605ce
+2070	2615	6877085514143246	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	50af816a209339dd
+2585	2708	6877085515180459	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	94f66c6619c571fa
+2585	2708	6877085515180459	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/src/FCAL_STORAGE.o	94f66c6619c571fa
+2256	2779	6877085515559435	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/EKF_Lib.o	e37267336066b82a
+2256	2779	6877085515559435	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/src/EKF_Lib.o	e37267336066b82a
+2670	2842	6877085515998270	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/GUI_Layer.o	4f4698670bddcc57
+2670	2842	6877085515998270	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/src/GUI_Layer.o	4f4698670bddcc57
+2374	2896	6877085516068082	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	d070f4cd9e4243a4
+2890	3291	6877085520958783	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	1de511bf1739a7ad
+2940	3368	6877085521592225	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	36c61dd0da53e0a4
+3008	3444	6877085522270521	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	976743ba1e8f5a44
+3340	3795	6877085525976933	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	ca306dd39e96b48f
+3072	3842	6877085525966959	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	efccef50d430aea1
+57	278	6878747826311824	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	b86bfe20ae986439
+44	344	6878747826999989	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/GUI_Layer.o	ca17bcc051e1e6e1
+27	554	6878747829029639	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/EKF_Lib.o	518223355cb43ecc
+17	403	6878749668079810	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	5707f4c091ab31d0
+7	588	6878749669770379	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/stm32f10x_it.o	362c131594ffa9fc
+407	748	6878749671405728	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	29a837e60cd6d3dd
+347	821	6878749672034057	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	62da05590907a69e
+626	970	6878749673627342	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	21e731493f478f2c
+669	1102	6878749674923874	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	eeec0c8ead93ce48
+790	1162	6878749675282916	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	c266a1ebfd3cd3b4
+861	1374	6878749677666545	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	971615d7ee578532
+1010	1435	6878749678045541	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	7b9c053c929947cd
+1139	1504	6878749678434597	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	c312005e1f0c9576
+1200	1570	6878749679501634	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	f4613bc68a0f2d8e
+1412	1784	6878749681735662	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	3fc1f40760d7368d
+1544	1851	6878749682194431	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	2bfe703088c6bbf4
+1606	1944	6878749683351361	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	9b79fa7f850605ce
+1476	2008	6878749683650530	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	28a3b5c21600d6da
+1822	2207	6878749685984348	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	b698d6aca1b1a411
+1890	2320	6878749687111351	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	36c61dd0da53e0a4
+2044	2383	6878749687480408	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	d4cca2376404786e
+1983	2448	6878749688298219	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	112f4fcc2945167f
+2539	2623	6878749690235963	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	b86bfe20ae986439
+2665	2752	6878749691522532	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/GUI_Layer.o	ca17bcc051e1e6e1
+2246	2823	6878749691712022	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	50af816a209339dd
+2424	2883	6878749692190769	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	d070f4cd9e4243a4
+2489	3006	6878749693606948	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/EKF_Lib.o	518223355cb43ecc
+2982	3312	6878749696977931	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	1de511bf1739a7ad
+2860	3372	6878749697336986	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	976743ba1e8f5a44
+2924	3430	6878749697965297	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	ca306dd39e96b48f
+3045	3656	6878749700448821	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	efccef50d430aea1
+12	323	6878750324992413	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/stm32f10x_it.o	4018dd6859653152
+19	438	6878750325151980	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	3be7d9177372ef2a
+28	516	6878750326413733	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	72a6a76a419e2502
+360	757	6878750329311131	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	4f02656e2f48ea0f
+430	826	6878750329759911	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	caaf81e852204d89
+559	910	6878750330807172	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	6bcf46ba2c8c762e
+482	1021	6878750331964014	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	16b7f1dadfb271dd
+799	1216	6878750333928762	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	85f0b1c0dc8fe1b5
+870	1323	6878750334995924	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	df40c61b587aca24
+1058	1385	6878750335544437	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	906e66d4b46b82ef
+954	1432	6878750335225298	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	5082800efebbe279
+1363	1699	6878750338735915	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	989b1cc9dd61fdc5
+1427	1759	6878750338845611	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	d64c871652d50bab
+1256	1828	6878750339643480	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	f0bac772238c2af6
+1474	1928	6878750340989871	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	8fde8cc05abd019c
+1738	2094	6878750342685656	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	94d6c3c06bb4611a
+1801	2225	6878750343982175	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	5b670dc16f41a6d
+1870	2291	6878750344570598	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	d23394454365bc70
+1966	2338	6878750344560635	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	9f5ec39523bb3c5
+2131	2580	6878750347542653	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	26604ba28f1e72a0
+2333	2656	6878750348240794	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	ff97acfe955e996e
+2266	2793	6878750349208190	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	318e7517c9923866
+2697	2878	6878750349826535	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	c9bda22a8c72729f
+2769	2945	6878750350674300	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/GUI_Layer.o	b965de348e8e7d6c
+2379	3107	6878750352788831	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	ee8734d35ac8fce9
+2853	3295	6878750354434423	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/EKF_Lib.o	4c41b8a93ef74f01
+2986	3337	6878750354454368	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	1a01df4c84e02e91
+3	426	6878752315698620	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/stm32f10x_it.o	16cb2f6e3441fd46
+14	562	6878752317100267	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/LED/LED.o	4830486064d60896
+466	613	6878752317200005	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/GUI_Layer.o	7f7b4bdfd48993b0
+20	698	6878752317549062	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/EKF_Lib/EKF_Lib.o	b2cc9a55e227145c
+11	782	6878752318636153	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/App/main.o	105a7629eafcf863
+746	871	6878752320197473	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	cd5e094cd4916143
+665	1109	6878752322536435	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/CMSIS/system_stm32f10x.o	bc3a1d18eeac8a81
+826	1212	6878752323503853	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_bkp.o	84d73fd110c91681
+608	1269	6878752323503853	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/LSM9DS1/LSM9DS1.o	84429f969f9dd5e4
+918	1341	6878752324720590	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/misc.o	6e3e9ccd974ab9c5
+1260	1630	6878752327782659	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_crc.o	b391357a00ee3ba3
+1313	1710	6878752328391014	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dac.o	d9f3fbf34212eea8
+1151	1846	6878752329877055	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_can.o	194405f21fe26354
+1389	1919	6878752330406276	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_adc.o	8553d72d55f1dc0a
+1676	2093	6878752332446701	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dma.o	bf62fee80bca2e41
+1963	2317	6878752334670747	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_exti.o	87eace89cceda851
+1891	2368	6878752334710662	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_fsmc.o	9311415d58039383
+1756	2437	6878752334860243	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_flash.o	66a792cbf347fe57
+2135	2641	6878752337892129	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_gpio.o	3f4994544b55d26d
+2362	2767	6878752339178691	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_dbgmcu.o	bfd6b0fe45db1ed4
+2482	2847	6878752339896780	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rtc.o	411a4638936d924b
+2414	2918	6878752340455269	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_i2c.o	443a7dabe71ef3d2
+2686	3181	6878752343193058	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_sdio.o	74e066e90d384c1
+2811	3286	6878752343412572	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_iwdg.o	3d8ad783285b9d8
+2962	3408	6878752345526137	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_pwr.o	5ad4ce0f07328c7c
+2892	3491	6878752346274144	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_rcc.o	9a3c7dbcee23ed6
+3239	3746	6878752348862848	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_wwdg.o	9b83323c634380bb
+3341	3877	6878752350279057	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_usart.o	65bad798e0d95fb7
+3460	3939	6878752350438659	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_spi.o	3216a0ff52571670
+3534	4148	6878752352981832	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Obj/Libraries/STM32F10x/STM32F10x_SP_Drivers/stm32f10x_tim.o	de5d852f6ab6a0bc
+4193	4357	6878752355175959	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/RAM Debug/Exe/GettingStarted.out	c6b89ceb5652fdf9

@@ -1,0 +1,10 @@
+# ninja log v5
+17	107	6871885130048779	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/CMSIS/startup_stm32f10x_md.o	aff3adb59ce473e9
+115	375	6871885132581635	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/src/GUI_Layer.o	9396a80db96ca23c
+6	434	6877071411484800	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/Libraries/STM32F10x/CMSIS/startup_stm32f10x_md.o	22f674c8bcc936ad
+542	758	6877071414322322	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/GUI_Layer.o	2624cd4765d41481
+542	758	6877071414322322	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/src/GUI_Layer.o	2624cd4765d41481
+21	158	6877071899277465	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	6e00a06298cdbdf0
+31	195	6877071899536791	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/GUI_Layer.o	b20917067bbb3a8f
+29	444	6877078316162708	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/FCAL_FLASH_Lib/FCAL_STORAGE.o	74b8633408e00101
+541	741	6877078319109913	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x - SP - sensor/Release/Obj/GUI_LAYER/GUI_Layer.o	d9d7f7b1fa33c447

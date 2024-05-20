@@ -1,0 +1,129 @@
+# ninja log v5
+49	198	6480648130000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_adc.xcl	77a79db4cbd0a451
+42	226	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/LED/src/LED.xcl	8f8a0a36596282d3
+2	257	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/Sensor_Lib/LSM9DS1/src/LSM9DS1.xcl	3151811fb0af36f2
+45	289	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/misc.xcl	421943b29765dfe2
+211	355	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_bkp.xcl	423d477abf85b3c2
+236	391	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_exti.xcl	1aa44df0ba214544
+270	431	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dbgmcu.xcl	c7ecf220c982e93a
+303	463	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dac.xcl	14c10984981d5a80
+371	528	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_can.xcl	9914dae4e75424c5
+404	563	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dma.xcl	d331cb38d8d6faca
+444	607	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_crc.xcl	74dc83c5b5b8209e
+476	625	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_fsmc.xcl	cf9c6627dc66df6
+543	688	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_pwr.xcl	457ed0f12f0cca32
+576	732	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_gpio.xcl	9589e0ce2c967de7
+621	774	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_i2c.xcl	32b9571c5fa3a01d
+639	790	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_flash.xcl	292704b4b4e881c7
+703	848	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_iwdg.xcl	fc07574607fd4382
+745	892	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/CMSIS/system_stm32f10x.xcl	218c737ee3eb5464
+787	940	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/GUI_LAYER/src/GUI_Layer.xcl	578c630cde3d5cf6
+804	959	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/App/main.xcl	115d64e913641fa5
+862	1015	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_usart.xcl	f80e5e7916eff032
+906	1049	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_sdio.xcl	dbffb983f8ebb6cd
+951	1108	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rcc.xcl	c1acd2d3dacd5d2c
+972	1127	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_tim.xcl	98d752adcacec337
+1121	1172	6480648149743584	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/App/main.pbi	caade3ae08d1c381
+1029	1187	6480648140000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_spi.xcl	8a05080d43a6551
+1062	1213	6480648150000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rtc.xcl	c5fdc08b5cb54ec6
+1177	1232	6480648150337311	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/LED/src/LED.pbi	886916d41bb103eb
+1202	1262	6480648150636508	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/GUI_LAYER/src/GUI_Layer.pbi	df62a6287def6c
+1227	1364	6480648150000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_wwdg.xcl	3b1669e19e127f10
+1237	1414	6480648152156132	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/Sensor_Lib/LSM9DS1/src/LSM9DS1.pbi	56add9eb48991eed
+1267	1423	6480648150000000	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/Vectors/src/stm32f10x_it.xcl	f842e9d84444fdce
+1142	1439	6480648152305732	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/CMSIS/system_stm32f10x.pbi	787624a6feaec9d9
+1381	1446	6480648152455372	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_adc.pbi	2b418f3beba9b176
+1420	1484	6480648152844297	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_bkp.pbi	8dbd43cf8d7a7454
+1443	1500	6480648153013842	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_crc.pbi	ff0f94aca29a9461
+1436	1510	6480648153033789	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_can.pbi	69976d612d610796
+1451	1521	6480648153178650	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dac.pbi	e9d6a790bf69b577
+1489	1562	6480648153617468	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dbgmcu.pbi	3ee90471c6f6f7aa
+1505	1574	6480648153667339	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/misc.pbi	cb16215b31f336e
+1515	1588	6480648153806981	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dma.pbi	5b6ec8e19d918448
+1525	1596	6480648153916690	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_gpio.pbi	faafa2b823491065
+1567	1641	6480648154415333	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_flash.pbi	ab4a89d90a4129e3
+1579	1648	6480648154445272	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_iwdg.pbi	94f8f046f33571e4
+1593	1659	6480648154574905	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_i2c.pbi	6b43b3ec89f2a488
+1601	1667	6480648154644909	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_fsmc.pbi	1defd2d0b997126e
+1645	1708	6480648155093523	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_exti.pbi	c6f7ae5b3f7dad47
+1653	1722	6480648155223179	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_spi.pbi	92f599310913404f
+1673	1739	6480648155372788	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rcc.pbi	dba8f9c1b7bb0330
+1664	1747	6480648155432617	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_tim.pbi	ea64b4f4f1ccbfa1
+1713	1781	6480648155821581	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_usart.pbi	b9aff83f5ab7550c
+1726	1792	6480648155881416	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rtc.pbi	b71a981379d4952c
+1744	1811	6480648156080883	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_sdio.pbi	f4fd7338b82dcadc
+1786	1819	6480648156110818	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part1.pbi	3f88e1babcd7cd1d
+1797	1831	6480648156160703	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part2.pbi	9040b8f6f1503fe5
+1752	1843	6480648156170643	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_pwr.pbi	5faf2afec0ffe29f
+1816	1851	6480648156390059	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part4.pbi	e7862e1f45638b30
+1848	1864	6480648156669304	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part3.pbi	b1b104d0ddc3172f
+1829	1887	6480648156918658	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part0.pbi	cee600fc1d35b793
+1841	1896	6480648156958535	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_wwdg.pbi	8a2b838d8ed38cee
+1861	2013	6480648158166396	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/Vectors/src/stm32f10x_it.pbi	8f0712251e1dafad
+2019	2029	6480648158355875	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN_part5.pbi	6ec834a64ed6ada0
+2039	2086	6480648158914765	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN.pbd	dd7a95419352f70d
+2099	3154	6480648169256734	E:/Archivio/Università/Lavoro/Post-Doc/Olimpia Firmware/OLIMPIA - FINGER (2.0EXP_VERSION)/RAM Debug/BrowseInfo/HANDi_FIN.pbw	39c084e6bd3a31ee
+41	194	6879581960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/App/main.xcl	e8070d2cec30364f
+46	208	6879581960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/CMSIS/system_stm32f10x.xcl	7caa3630fe7b7414
+50	223	6879581960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/GUI_LAYER/src/GUI_Layer.xcl	5adaab1df269af8c
+56	238	6879581960000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_can.xcl	a588956f29367f9f
+219	370	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/LED/src/LED.xcl	fdb8f4a4a1a3e9f9
+204	385	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/Sensor_Lib/LSM9DS1/src/LSM9DS1.xcl	847ecd8682179d6f
+235	402	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/misc.xcl	ae5e80d501a01b84
+252	421	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_adc.xcl	9138b539e8859d29
+381	535	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_bkp.xcl	5873f39ab6561a14
+398	564	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dac.xcl	65d227859f48e06d
+415	580	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dbgmcu.xcl	e8700f35c42a7c0b
+433	597	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_exti.xcl	23af151484c806c0
+547	701	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dma.xcl	a7c24c8c4d256fa8
+577	722	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_crc.xcl	1de2abb7e8ff6174
+593	741	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_iwdg.xcl	a2b10ba241325579
+609	758	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_i2c.xcl	d60e6f912fda3575
+714	868	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_fsmc.xcl	5a2c14ba7925a62f
+733	887	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_flash.xcl	fe654a8381e9b941
+754	912	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_gpio.xcl	b6ee93a82709a50d
+771	932	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_pwr.xcl	f1921c68cf61caff
+881	1062	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rtc.xcl	9145c8968bf87f2a
+900	1082	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_sdio.xcl	c31db0067df8e1d1
+927	1116	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rcc.xcl	d0551a828171d5c4
+946	1133	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_spi.xcl	26477b8d01189d14
+1149	1216	6879581979455370	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/LED/src/LED.pbi	2aba8d4cac8173af
+1077	1266	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_tim.xcl	df04900e1f44ce84
+1094	1283	6879581970000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_usart.xcl	66fffb969ab3e23c
+1220	1299	6879581980163498	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/GUI_LAYER/src/GUI_Layer.pbi	79721e2961305bde
+1296	1341	6879581980712009	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/App/main.pbi	4acad7a00dfa05ff
+1128	1365	6879581980821726	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/CMSIS/system_stm32f10x.pbi	b43ea23855983066
+1369	1429	6879581981599636	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_crc.pbi	3613190864903ed8
+1279	1453	6879581981848971	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/Sensor_Lib/LSM9DS1/src/LSM9DS1.pbi	33b2e7007d32050b
+1304	1470	6879581980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/Vectors/src/stm32f10x_it.xcl	37c32190f51926f8
+1358	1500	6879581980000000	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_wwdg.xcl	5b253cc673f5a8d7
+1458	1516	6879581982377545	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dbgmcu.pbi	c1c82c6d28130ac6
+1482	1537	6879581982691867	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_adc.pbi	692aebd21b06ff5c
+1513	1569	6879581982991079	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/misc.pbi	7cc400319bd62b3
+1521	1578	6879581983080812	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_can.pbi	afe961a0b758924
+1434	1606	6879581983380035	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_bkp.pbi	5dfc07424890fbfb
+1573	1634	6879581983649296	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_gpio.pbi	1fbc13d51d41b0ac
+1582	1643	6879581983729079	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_flash.pbi	86a6fd50d98e603c
+1611	1668	6879581983988386	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_iwdg.pbi	7b9e16dc6c4e7aab
+1648	1703	6879581984347432	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_i2c.pbi	36cd6b149b44a10a
+1542	1711	6879581984377404	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dac.pbi	9b5b7b9161bb08db
+1673	1728	6879581984596767	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_fsmc.pbi	c28e167704d8e032
+1708	1763	6879581984945825	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_dma.pbi	1fedc74b2e72f090
+1716	1777	6879581985055536	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_pwr.pbi	bed40c696252165
+1732	1804	6879581985334785	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_usart.pbi	37feb3757e468a49
+1639	1818	6879581985454475	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_exti.pbi	22d088055f8bf208
+1768	1836	6879581985673885	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rtc.pbi	1d8bb9dfc75d43af
+1782	1849	6879581985803540	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_sdio.pbi	9b8379429ecbaf01
+1808	1881	6879581986112713	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_rcc.pbi	cdca30cc9caf8079
+1822	1898	6879581986292230	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_tim.pbi	b8b176eb8b09becd
+1885	1906	6879581986352066	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part2.pbi	566ee203cf23d087
+1841	1918	6879581986411970	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_spi.pbi	37ae39752fd81503
+1902	1926	6879581986551530	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part3.pbi	1fb858e88d31d8f
+1854	1938	6879581986681189	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part0.pbi	95e9e3c34290172e
+1922	1952	6879581986780921	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part4.pbi	5c250007e250af8f
+1933	1960	6879581986860725	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part1.pbi	23928a537bd61eb9
+1913	1980	6879581987110054	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/StdPeriph_Driver/stm32f10x_wwdg.pbi	c27f4953b5084bc7
+1948	1999	6879581987309547	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/Vectors/src/stm32f10x_it.pbi	8d574f084f4221fd
+2002	2013	6879581987469077	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN_part5.pbi	108550047e6615a2
+2019	2077	6879581988097587	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN.pbd	a79cd2a7777d9642
+2087	3026	6879581997207058	C:/Users/Michelangelo/Documents/IAR Embedded Workbench/STM32F10x [Finger]/RAM Debug/BrowseInfo/HANDi_FIN.pbw	a373fc9920a83f93

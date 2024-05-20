@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armJLINK.dll" 
+
+"D:\Unifi\Olimpia\OLIMPIA_Michelangelo_local\Firmware\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10100\s140\iar\_build\ble_app_uart_pca10100_s140.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armLibSupportUniversal.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/NordicSemi/nRF52_PROT.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/NordicSemi/nRF52_2.dmac" 
+
+
+
+
