@@ -1,285 +1,285 @@
-"D:\Firmware\Codici Olimpia\Central BLE\components\libraries\bsp\bsp_btn_ble.c"
+"D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\bsp\bsp_btn_ble.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\Board Support\bsp_btn_ble.pbi.dep
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\Board Support\bsp_btn_ble.pbi.dep
 -o
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\Board Support\bsp_btn_ble.pbi
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\Board Support\bsp_btn_ble.pbi
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\bsp
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\bsp
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\config\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\config\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_advertising\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_advertising\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_db_discovery\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_db_discovery\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_dtm\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_dtm\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_racp\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_racp\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ans_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ans_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_bas_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cscs\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cscs\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cts_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_cts_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dfu\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dfu\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dis\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_dis\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_gls\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_gls\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hids\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hids\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hts\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_hts\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_ias_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lbs_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lls\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_lls\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_tps\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\ble_services\ble_tps\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\common\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\common\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gatt\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gatt\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gq\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_gq\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_qwr\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_qwr\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_scan\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\nrf_ble_scan\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\peer_manager\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\ble\peer_manager\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\boards\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\boards\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_fifo\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_fifo\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_flags\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\atomic_flags\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\balloc\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\balloc\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bootloader\ble_dfu\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bootloader\ble_dfu\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bsp\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\bsp\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\button\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\button\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\cli\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\cli\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc16\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc16\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc32\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crc32\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crypto\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\crypto\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense_drv\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\csense_drv\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\delay\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\delay\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ecc\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ecc\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_section_vars\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_section_vars\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_task_manager\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\experimental_task_manager\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fds\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fds\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fstorage\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fstorage\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gfx\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gfx\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gpiote\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\gpiote\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hardfault\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hardfault\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hci\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\hci\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\led_softblink\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\led_softblink\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\src\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\log\src\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\low_power_pwm\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\low_power_pwm\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mem_manager\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mem_manager\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\memobj\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\memobj\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mpu\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mpu\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mutex\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\mutex\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwm\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwm\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwr_mgmt\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\pwr_mgmt\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\queue\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\queue\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ringbuf\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\ringbuf\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\scheduler\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\scheduler\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sdcard\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sdcard\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\slip\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\slip\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sortlist\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\sortlist\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\spi_mngr\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\spi_mngr\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\stack_guard\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\stack_guard\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\strerror\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\strerror\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\svc\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\svc\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\timer\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\timer\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_mngr\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_mngr\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_sensor\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\twi_sensor\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\audio\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\audio\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\generic\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\generic\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\msc\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\usbd\class\msc\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ac_rec_parser\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ac_rec_parser\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ac_rec\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ac_rec\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_oob_advdata\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_oob_advdata\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_lib\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_lib\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_msg\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ble_pair_msg\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\common\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\common\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ep_oob_rec\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\ep_oob_rec\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\hs_rec\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\hs_rec\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\le_oob_rec\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\connection_handover\le_oob_rec\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\message\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\message\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\record\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\generic\record\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\launchapp\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\launchapp\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\message\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\message\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\record\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\parser\record\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\text\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\text\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\uri\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\ndef\uri\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\platform\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\platform\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_lib\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_lib\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_parser\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t2t_parser\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_lib\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_lib\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\apdu\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\apdu\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\cc_file\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\cc_file\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\hl_detection_procedure\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\hl_detection_procedure\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\tlv\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\nfc\t4t_parser\tlv\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\common\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\common\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\fprintf\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\fprintf\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\segger_rtt\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\segger_rtt\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\utf_converter\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\external\utf_converter\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\legacy\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\integration\nrfx\legacy\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\drivers\include\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\hal\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\hal\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\config\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\config\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\uart\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\uart\
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fifo\
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\fifo\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
@@ -287,275 +287,275 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\config
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\config
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components
+D:\Firmware\Olimpia Firmware original\Central BLE\components
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_advertising
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_advertising
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_db_discovery
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_db_discovery
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_dtm
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_dtm
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_racp
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_racp
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_ancs_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_ancs_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_ans_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_ans_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_bas
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_bas
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_bas_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_bas_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_cscs
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_cscs
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_cts_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_cts_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_dfu
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_dfu
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_dis
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_dis
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_gls
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_gls
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_hids
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_hids
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_hrs
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_hrs
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_hrs_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_hrs_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_hts
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_hts
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_ias
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_ias
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_ias_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_ias_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_lbs
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_lbs
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_lbs_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_lbs_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_lls
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_lls
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_nus
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_nus
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_nus_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_nus_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_rscs
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_rscs
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_rscs_c
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_rscs_c
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\ble_services\ble_tps
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\ble_services\ble_tps
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\common
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\common
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\nrf_ble_gatt
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\nrf_ble_gatt
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\nrf_ble_gq
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\nrf_ble_gq
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\nrf_ble_qwr
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\nrf_ble_qwr
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\nrf_ble_scan
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\nrf_ble_scan
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\ble\peer_manager
+D:\Firmware\Olimpia Firmware original\Central BLE\components\ble\peer_manager
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\boards
+D:\Firmware\Olimpia Firmware original\Central BLE\components\boards
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\atomic
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\atomic
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\atomic_fifo
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\atomic_fifo
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\atomic_flags
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\atomic_flags
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\balloc
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\balloc
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\bootloader\ble_dfu
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\bootloader\ble_dfu
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\bsp
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\bsp
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\button
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\button
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\cli
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\cli
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\crc16
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\crc16
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\crc32
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\crc32
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\crypto
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\crypto
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\csense
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\csense
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\csense_drv
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\csense_drv
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\delay
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\delay
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\ecc
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\ecc
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\experimental_section_vars
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\experimental_section_vars
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\experimental_task_manager
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\experimental_task_manager
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\fds
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\fds
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\fstorage
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\fstorage
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\gfx
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\gfx
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\gpiote
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\gpiote
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\hardfault
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\hardfault
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\hci
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\hci
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\led_softblink
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\led_softblink
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\log
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\log
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\log\src
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\log\src
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\low_power_pwm
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\low_power_pwm
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\mem_manager
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\mem_manager
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\memobj
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\memobj
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\mpu
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\mpu
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\mutex
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\mutex
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\pwm
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\pwm
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\pwr_mgmt
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\pwr_mgmt
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\queue
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\queue
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\ringbuf
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\ringbuf
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\scheduler
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\scheduler
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\sdcard
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\sdcard
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\slip
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\slip
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\sortlist
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\sortlist
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\spi_mngr
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\spi_mngr
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\stack_guard
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\stack_guard
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\strerror
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\strerror
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\svc
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\svc
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\timer
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\timer
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\twi_mngr
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\twi_mngr
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\twi_sensor
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\twi_sensor
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\audio
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\audio
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\cdc
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\cdc
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\cdc\acm
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\cdc\acm
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\hid
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\hid
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\hid\generic
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\hid\generic
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\hid\kbd
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\hid\kbd
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\hid\mouse
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\hid\mouse
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\usbd\class\msc
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\usbd\class\msc
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\util
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\util
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\conn_hand_parser
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\conn_hand_parser
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\conn_hand_parser\ac_rec_parser
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\conn_hand_parser\ac_rec_parser
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\conn_hand_parser\le_oob_rec_parser
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\ac_rec
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\ac_rec
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\ble_oob_advdata
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\ble_oob_advdata
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\ble_pair_lib
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\ble_pair_lib
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\ble_pair_msg
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\ble_pair_msg
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\common
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\common
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\ep_oob_rec
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\ep_oob_rec
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\hs_rec
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\hs_rec
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\connection_handover\le_oob_rec
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\connection_handover\le_oob_rec
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\generic\message
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\generic\message
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\generic\record
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\generic\record
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\launchapp
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\launchapp
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\parser\message
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\parser\message
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\parser\record
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\parser\record
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\text
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\text
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\ndef\uri
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\ndef\uri
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\platform
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\platform
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t2t_lib
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t2t_lib
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t2t_parser
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t2t_parser
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t4t_lib
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t4t_lib
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t4t_parser\apdu
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t4t_parser\apdu
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t4t_parser\cc_file
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t4t_parser\cc_file
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t4t_parser\hl_detection_procedure
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t4t_parser\hl_detection_procedure
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\nfc\t4t_parser\tlv
+D:\Firmware\Olimpia Firmware original\Central BLE\components\nfc\t4t_parser\tlv
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\softdevice\common
+D:\Firmware\Olimpia Firmware original\Central BLE\components\softdevice\common
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\softdevice\s132\headers
+D:\Firmware\Olimpia Firmware original\Central BLE\components\softdevice\s132\headers
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\softdevice\s132\headers\nrf52
+D:\Firmware\Olimpia Firmware original\Central BLE\components\softdevice\s132\headers\nrf52
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\toolchain\cmsis\include
+D:\Firmware\Olimpia Firmware original\Central BLE\components\toolchain\cmsis\include
 -I
-D:\Firmware\Codici Olimpia\Central BLE\external\fprintf
+D:\Firmware\Olimpia Firmware original\Central BLE\external\fprintf
 -I
-D:\Firmware\Codici Olimpia\Central BLE\external\segger_rtt
+D:\Firmware\Olimpia Firmware original\Central BLE\external\segger_rtt
 -I
-D:\Firmware\Codici Olimpia\Central BLE\external\utf_converter
+D:\Firmware\Olimpia Firmware original\Central BLE\external\utf_converter
 -I
-D:\Firmware\Codici Olimpia\Central BLE\integration\nrfx
+D:\Firmware\Olimpia Firmware original\Central BLE\integration\nrfx
 -I
-D:\Firmware\Codici Olimpia\Central BLE\integration\nrfx\legacy
+D:\Firmware\Olimpia Firmware original\Central BLE\integration\nrfx\legacy
 -I
-D:\Firmware\Codici Olimpia\Central BLE\modules\nrfx
+D:\Firmware\Olimpia Firmware original\Central BLE\modules\nrfx
 -I
-D:\Firmware\Codici Olimpia\Central BLE\modules\nrfx\drivers\include
+D:\Firmware\Olimpia Firmware original\Central BLE\modules\nrfx\drivers\include
 -I
-D:\Firmware\Codici Olimpia\Central BLE\modules\nrfx\hal
+D:\Firmware\Olimpia Firmware original\Central BLE\modules\nrfx\hal
 -I
-D:\Firmware\Codici Olimpia\Central BLE\modules\nrfx\mdk
+D:\Firmware\Olimpia Firmware original\Central BLE\modules\nrfx\mdk
 -I
-D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\config
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\config
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\uart
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\uart
 -I
-D:\Firmware\Codici Olimpia\Central BLE\components\libraries\fifo
+D:\Firmware\Olimpia Firmware original\Central BLE\components\libraries\fifo
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

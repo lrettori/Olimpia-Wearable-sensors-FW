@@ -1,6 +1,6 @@
-D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Libraries\nrf_section_iter.pbi: \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\components\libraries\experimental_section_vars\nrf_section_iter.c \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\sdk_common.h \
+D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\nrf52832_xxaa\BrowseInfo\nRF_Libraries\nrf_section_iter.pbi: \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\components\libraries\experimental_section_vars\nrf_section_iter.c \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\sdk_common.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -11,33 +11,33 @@ D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\string.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ysizet.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_string.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\config\sdk_config.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/nordic_common.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\compiler_abstraction.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_os.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_errors.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/app_util.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\config\sdk_config.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/nordic_common.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\compiler_abstraction.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_os.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_errors.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf_error.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/app_util.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\nrf.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cm4.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/cmsis_version.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/cmsis_compiler.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\cmsis_iccarm.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk\nrf.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\core_cm4.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/cmsis_version.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/cmsis_compiler.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include\cmsis_iccarm.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/mpu_armv7.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/system_nrf52.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52_bitfields.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf51_to_nrf52.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52_name_change.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/compiler_abstraction.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\nrf_mbr.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_macros.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/nrf_assert.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\components\libraries\experimental_section_vars/nrf_section_iter.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\components\libraries\experimental_section_vars/nrf_section.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\nordic_common.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\nrf_assert.h \
-  D:\Firmware\Codici\ Olimpia\Peripheral\ BLE\ -\ modified\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\app_util.h
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\toolchain\cmsis\include/mpu_armv7.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/system_nrf52.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52_bitfields.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf51_to_nrf52.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/nrf52_name_change.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\modules\nrfx\mdk/compiler_abstraction.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf52\nrf_mbr.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\softdevice\s132\headers\nrf_svc.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/sdk_macros.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util/nrf_assert.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\components\libraries\experimental_section_vars/nrf_section_iter.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\components\libraries\experimental_section_vars/nrf_section.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\nordic_common.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\nrf_assert.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Peripheral\ BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\..\..\..\..\..\..\components\libraries\util\app_util.h

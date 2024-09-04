@@ -149,10 +149,10 @@
 //
 //#define DEVICE_NAME                     "Nordic_UART_00"                        // Name of device and Address. Will be included in the advertising data.
 //uint8_t DEVICE_ADDRESS =                (uint8_t) '0';                          // change this parameters MANUALLY if you want to program different devices.
-#define DEVICE_NAME                     "Nordic_UART_01"                        // Name of device and Address. Will be included in the advertising data.
-uint8_t DEVICE_ADDRESS =                (uint8_t) '1';                          // change this parameters MANUALLY if you want to program different devices.
-//#define DEVICE_NAME                     "Nordic_UART_02"                        // Name of device and Address. Will be included in the advertising data.
-//uint8_t DEVICE_ADDRESS =                (uint8_t) '2';                          // change this parameters MANUALLY if you want to program different devices.
+//#define DEVICE_NAME                     "Nordic_UART_01"                        // Name of device and Address. Will be included in the advertising data.
+//uint8_t DEVICE_ADDRESS =                (uint8_t) '1';                          // change this parameters MANUALLY if you want to program different devices.
+#define DEVICE_NAME                     "Nordic_UART_02"                        // Name of device and Address. Will be included in the advertising data.
+uint8_t DEVICE_ADDRESS =                (uint8_t) '2';                          // change this parameters MANUALLY if you want to program different devices.
 //#define DEVICE_NAME                     "Nordic_UART_03"                        // Name of device and Address. Will be included in the advertising data.
 //uint8_t DEVICE_ADDRESS =                (uint8_t) '3';                          // change this parameters MANUALLY if you want to program different devices.
 
@@ -971,6 +971,7 @@ static void app_timer_handler(void * p_context)
       TIM_LED = 0;
     }
   }
+    
   bsp_board_led_invert(BSP_BOARD_LED_1);
 //  send_to_central();
   

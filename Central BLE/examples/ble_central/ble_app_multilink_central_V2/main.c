@@ -4,7 +4,7 @@
  ******************************************************************************
  * @file        main.c
  * @author      Lorenzo Rettori
- * @version     v2.0
+ * @version     v2.1
  * @date        2024
  * @brief       Main program body.
  *              This project handles the central unit of a sensor network (The 
@@ -26,7 +26,12 @@
  *              - Several small modifications to solve bugs of the previous
  *                version, mainly regarding syncronization problems in case
  *                of multiple connections/disconnections of sensors
- * 
+ *
+ *              Modification from version 2.0:
+ *              - Re-initialize input buffers when received the string 
+ *                "Start\r\n" from the PC, to ensure synchronization of data  
+ *                at each acquisition
+ *
  ******************************************************************************
  * Copyright (c) 2014 - 2021, Nordic Semiconductor ASA
  *
@@ -797,6 +802,38 @@ void uart_event_handle(app_uart_evt_t * p_event)
         }
       } while (ret_val == NRF_ERROR_BUSY);
     }
+    
+    // START ACQUISITION: empty all the buffers and initialize the indices
+    else if ((data_array[index] == 0x0A)&& (data_array[index -1] == 0x0D)&&
+             (data_array[index -2] == 't')&&(data_array[index -3] == 'r')&&
+             (data_array[index -4] == 'a')&&(data_array[index -5] == 't')&&
+             (data_array[index -6] == 'S'))
+    {
+//      memset(BUF_0,0,store_sz);
+//      memset(BUF_1,0,store_sz);
+//      memset(BUF_2,0,store_sz);
+//      memset(BUF_3,0,store_sz);
+      packetsSent[0] = 0;
+      packetsSent[1] = 0;
+      packetsSent[2] = 0;
+      packetsSent[3] = 0;
+      
+      packetsReceived[0] = 0;
+      packetsReceived[1] = 0;
+      packetsReceived[2] = 0;
+      packetsReceived[3] = 0;
+      
+      I_0 = 0;
+      I_1 = 0;
+      I_2 = 0;
+      I_3 = 0;
+      
+      K_0 = 0;
+      K_1 = 0;
+      K_2 = 0;
+      K_3 = 0;
+    }
+    
     else {
       index++;
     }

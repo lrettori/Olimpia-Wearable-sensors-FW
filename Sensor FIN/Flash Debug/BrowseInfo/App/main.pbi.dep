@@ -1,25 +1,25 @@
-D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Flash\ Debug\BrowseInfo\App\main.pbi: \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\LSM9DS1\inc\HAL_LSM9DS1.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\LSM9DS1\inc\LSM9DS1.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\App\inc\stm32f10x_it.h \
+D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Flash\ Debug\BrowseInfo\App\main.pbi: \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\LSM9DS1\inc\HAL_LSM9DS1.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\LSM9DS1\inc\LSM9DS1.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\App\inc\stm32f10x_it.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iar_intrinsics_common.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\intrinsics.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\App\inc\arm_comm.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_usart.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_spi.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_i2c.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_can.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\CMSIS\stm32f10x.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\misc.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_tim.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_rcc.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_pwr.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_gpio.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_fsmc.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_flash.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_exti.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\App\inc\stm32f10x_conf.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Libraries\STM32F10x\CMSIS\system_stm32f10x.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\App\inc\arm_comm.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_usart.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_spi.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_i2c.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_can.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\CMSIS\stm32f10x.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\misc.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_tim.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_rcc.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_pwr.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_gpio.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_fsmc.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_flash.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\stm32f10x_exti.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\App\inc\stm32f10x_conf.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\Libraries\STM32F10x\CMSIS\system_stm32f10x.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_iccarm.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_compiler.h \
@@ -33,4 +33,4 @@ D:\Firmware\Codici\ Olimpia\Sensor\ FIN\Flash\ Debug\BrowseInfo\App\main.pbi: \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\assert.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ FIN\App\main.c
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ FIN\App\main.c

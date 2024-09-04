@@ -1,152 +1,153 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  20/May/2024  13:38:59
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  04/Sep/2024  12:06:03
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Firmware\Codici Olimpia\Peripheral
+#        D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.out
 #    Map file     =
-#        D:\Firmware\Codici Olimpia\Peripheral
+#        D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.map
 #    Command line =
-#        -f "D:\Firmware\Codici Olimpia\Peripheral
+#        -f "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.out.rsp"
-#        ("D:\Firmware\Codici Olimpia\Peripheral
+#        ("D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_button.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_error.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_error_handler_iar.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_error_weak.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_fifo.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_scheduler.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_timer2.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_uart_fifo.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\app_util_platform.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_advdata.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_advertising.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_conn_params.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_conn_state.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_link_ctx_manager.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE_Services\ble_mic.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\ble_srv_common.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board
-#        Definition\boards.o" "D:\Firmware\Codici Olimpia\Peripheral
+#        Definition\boards.o" "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board
-#        Support\bsp.o" "D:\Firmware\Codici Olimpia\Peripheral
+#        Support\bsp.o" "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board
-#        Support\bsp_btn_ble.o" "D:\Firmware\Codici Olimpia\Peripheral
+#        Support\bsp_btn_ble.o" "D:\Firmware\Olimpia Firmware
+#        original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\drv_rtc.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\hardfault_implementation.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\iar_startup_nrf52.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Application\main.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_assert.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atfifo.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atflags.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atomic.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_balloc.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\nrf_ble_gatt.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\nrf_ble_qwr.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrf_drv_clock.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrf_drv_twi.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrf_drv_uart.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_fprintf.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_fprintf_format.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log\nrf_log_backend_rtt.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log\nrf_log_backend_serial.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log\nrf_log_default_backends.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log\nrf_log_frontend.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log\nrf_log_str_formatter.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_memobj.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_pwr_mgmt.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_ringbuf.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh_ble.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh_soc.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_section_iter.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_sortlist.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\nrf_strerror.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_atomic.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_clock.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_gpiote.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_prs.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_twi.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_twim.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_uart.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_uarte.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE\pm_buffer.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries\retarget.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT_printf.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT_Syscalls_IAR.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\None\system_nrf52.o"
-#        "D:\Firmware\Codici Olimpia\Peripheral
+#        "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\UTF8\UTF16
 #        converter\utf.o" --redirect _Printf=_PrintfFull --redirect
-#        _Scanf=_ScanfFull --no_out_extension -o "D:\Firmware\Codici
-#        Olimpia\Peripheral
+#        _Scanf=_ScanfFull --no_out_extension -o "D:\Firmware\Olimpia Firmware
+#        original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.out"
-#        --map "D:\Firmware\Codici Olimpia\Peripheral
+#        --map "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.map"
-#        --config "D:\Firmware\Codici Olimpia\Peripheral
+#        --config "D:\Firmware\Olimpia Firmware original\Peripheral
 #        BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\ble_app_uart_iar_nRF5x.icf"
 #        --warnings_are_errors --semihosting --entry __iar_program_start
 #        --inline --vfe --text_out locale)
@@ -515,32 +516,32 @@ command line/config:
     -----------------------------------------------------
     Total:
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Application: [1]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Application: [1]
     main.o                        1'360      245    6'672
     -----------------------------------------------------
     Total:                        1'360      245    6'672
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Definition: [2]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Definition: [2]
     boards.o                        316
     -----------------------------------------------------
     Total:                          316
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Support: [3]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Support: [3]
     bsp.o                           996        4      128
     bsp_btn_ble.o                   212        8        8
     -----------------------------------------------------
     Total:                        1'208       12      136
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\None: [4]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\None: [4]
     system_nrf52.o                  588                 4
     -----------------------------------------------------
     Total:                          588                 4
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\UTF8\UTF16 converter: [5]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\UTF8\UTF16 converter: [5]
     -----------------------------------------------------
     Total:
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE: [6]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE: [6]
     ble_advdata.o                 1'148
     ble_advertising.o             1'036
     ble_conn_params.o               588        8       92
@@ -553,12 +554,12 @@ D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v
     -----------------------------------------------------
     Total:                        5'262      368      216
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE_Services: [7]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE_Services: [7]
     ble_mic.o                       684       16
     -----------------------------------------------------
     Total:                          684       16
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers: [8]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers: [8]
     nrf_drv_clock.o                 380       32       20
     nrf_drv_uart.o                  140                12
     nrfx_clock.o                    256       16        8
@@ -570,7 +571,7 @@ D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v
     -----------------------------------------------------
     Total:                        5'512      120      280
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries: [9]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries: [9]
     app_button.o                    596       22       72
     app_error.o                      30
     app_error_weak.o                104       28
@@ -593,7 +594,7 @@ D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v
     -----------------------------------------------------
     Total:                        5'348    1'498    1'040
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log: [10]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log: [10]
     nrf_log_backend_rtt.o           136       12       65
     nrf_log_backend_serial.o        204
     nrf_log_default_backends.o                32        8
@@ -602,12 +603,12 @@ D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v
     -----------------------------------------------------
     Total:                        2'192      166    1'393
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT: [11]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT: [11]
     SEGGER_RTT.o                    268       20      668
     -----------------------------------------------------
     Total:                          268       20      668
 
-D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice: [12]
+D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice: [12]
     nrf_sdh.o                       428       64        3
     nrf_sdh_ble.o                   552      620        1
     nrf_sdh_soc.o                    68       44
@@ -1358,18 +1359,18 @@ uuid_list_sized_encode     0x2'9a83   0x9c  Code  Lc  ble_advdata.o [6]
 wakeup_button_cfg          0x2'6d7d   0x3a  Code  Lc  bsp.o [3]
 
 
-[1] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Application
-[2] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Definition
-[3] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Support
-[4] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\None
-[5] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\UTF8\UTF16 converter
-[6] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE
-[7] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE_Services
-[8] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers
-[9] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries
-[10] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log
-[11] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT
-[12] = D:\Firmware\Codici Olimpia\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice
+[1] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Application
+[2] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Definition
+[3] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\Board Support
+[4] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\None
+[5] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\UTF8\UTF16 converter
+[6] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE
+[7] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_BLE_Services
+[8] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Drivers
+[9] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Libraries
+[10] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Log
+[11] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_Segger_RTT
+[12] = D:\Firmware\Olimpia Firmware original\Peripheral BLE\examples\ble_peripheral\ble_app_uart_v2\pca10040\s132\iar\_build\nRF_SoftDevice
 [13] = dl7M_tlf.a
 [14] = m7M_tls.a
 [15] = rt7M_tl.a

@@ -48,8 +48,8 @@
 // has to manually select the correct address of the CAN BUS, while everything
 // else is the same for both cases.
 
-//#define FINGER 0x01                             // Thumb
-#define FINGER 0x02                             // Index
+#define FINGER 0x01                             // Thumb
+//#define FINGER 0x02                             // Index
 
 // TIMER variables ------------------------------------------------------------
 // Sampling frequency is needed to determine how often the sensor will produce a
@@ -465,7 +465,7 @@ void CAN1_IntrHandler(void)
     CAN_Receive(CAN1, CAN_FIFO0, &RxMessage);
     //
     TIM_LED++;
-    if (TIM_LED == 111) {
+    if (TIM_LED == 50) {
       GPIO_TogglePin(LED_PORT, LED_PIN);
       TIM_LED = 0;
     }

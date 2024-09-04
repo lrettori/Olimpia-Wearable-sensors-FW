@@ -2,7 +2,7 @@
 
 "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJLINK.dll" 
 
-"D:\Firmware\Codici Olimpia\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.out" 
+"D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.out" 
 
 --plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
 

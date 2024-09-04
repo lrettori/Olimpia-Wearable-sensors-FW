@@ -1,4 +1,4 @@
-D:\Firmware\Codici\ Olimpia\Sensor\ MAIN\Flash\ Debug\BrowseInfo\GUI_LAYER\EKF_Lib\EKF_Lib.pbi: \
+D:\Firmware\Olimpia\ Firmware\ original\Sensor\ MAIN\Flash\ Debug\BrowseInfo\GUI_LAYER\EKF_Lib\EKF_Lib.pbi: \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_float_setup.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
@@ -6,5 +6,5 @@ D:\Firmware\Codici\ Olimpia\Sensor\ MAIN\Flash\ Debug\BrowseInfo\GUI_LAYER\EKF_L
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\Math.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ MAIN\GUI_LAYER\EKF_Lib\inc\EKF_Lib.h \
-  D:\Firmware\Codici\ Olimpia\Sensor\ MAIN\GUI_LAYER\EKF_Lib\src\EKF_Lib.c
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ MAIN\GUI_LAYER\EKF_Lib\inc\EKF_Lib.h \
+  D:\Firmware\Olimpia\ Firmware\ original\Sensor\ MAIN\GUI_LAYER\EKF_Lib\src\EKF_Lib.c

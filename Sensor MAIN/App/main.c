@@ -64,8 +64,8 @@
 //
 //uint8_t DEVICE_ADDRESS = (uint8_t) '0';
 //uint8_t DEVICE_ADDRESS = (uint8_t) '1';
-//uint8_t DEVICE_ADDRESS = (uint8_t) '2';
-uint8_t DEVICE_ADDRESS = (uint8_t) '3';
+uint8_t DEVICE_ADDRESS = (uint8_t) '2';
+//uint8_t DEVICE_ADDRESS = (uint8_t) '3';
 
 // data_len is initialized for SensHand devices, that needs longer arrays. Its
 // value is changed in main() if DEVICE_ADDRESS is 2 or 3, so if the application

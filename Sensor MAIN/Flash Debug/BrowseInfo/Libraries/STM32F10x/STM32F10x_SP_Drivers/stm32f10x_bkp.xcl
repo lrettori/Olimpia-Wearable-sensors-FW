@@ -1,71 +1,71 @@
-"D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\stm32f10x_bkp.c"
+"D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\stm32f10x_bkp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\Firmware\Codici Olimpia\Sensor MAIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_bkp.pbi.dep
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_bkp.pbi.dep
 -o
-D:\Firmware\Codici Olimpia\Sensor MAIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_bkp.pbi
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Flash Debug\BrowseInfo\Libraries\STM32F10x\STM32F10x_SP_Drivers\stm32f10x_bkp.pbi
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\App\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\App\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\App\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\App\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\board\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\board\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\EKF_Lib\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\EKF_Lib\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\EKF_Lib\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\EKF_Lib\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Config\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Config\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Core\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Core\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Core\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Core\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\HW\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\HW\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\HW\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\HW\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\UART\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\UART\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\UART\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\UART\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\LSM9DS1\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\LSM9DS1\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\LSM9DS1\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\LSM9DS1\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\CMSIS\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\CMSIS\
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\CMSIS\startup\iar\
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\CMSIS\startup\iar\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -77,61 +77,61 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN
+D:\Firmware\Olimpia Firmware original\Sensor MAIN
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\App
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\App
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\App\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\App\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\board
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\board
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\FCAL_FLASH_Lib\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\EKF_Lib\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\EKF_Lib\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\GUI_LAYER\EKF_Lib\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\GUI_LAYER\EKF_Lib\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Config\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Config\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Core\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Core\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Core\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Core\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\HW\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\HW\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\HW\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\HW\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\UART\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\UART\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\UART\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\UART\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\VirCOM\USB\Class\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\VirCOM\USB\Class\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\LSM9DS1\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\LSM9DS1\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\LSM9DS1\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\LSM9DS1\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\inc
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\STM32F10x_SP_Driver\src
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\CMSIS
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\CMSIS
 -I
-D:\Firmware\Codici Olimpia\Sensor MAIN\Libraries\STM32F10x\CMSIS\startup\iar
+D:\Firmware\Olimpia Firmware original\Sensor MAIN\Libraries\STM32F10x\CMSIS\startup\iar
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -I

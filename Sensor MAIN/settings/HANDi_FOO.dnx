@@ -12,13 +12,13 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <JLinkDriver>
-        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
-        <CStepIntDis>_ 0</CStepIntDis>
         <jlinkResetStyle>12</jlinkResetStyle>
         <jlinkResetStrategy>0</jlinkResetStrategy>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>551408926</Checksum>
+        <Checksum>3161033106</Checksum>
     </DebugChecksum>
     <Trace1>
         <Enabled>0</Enabled>

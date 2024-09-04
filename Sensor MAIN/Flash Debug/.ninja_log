@@ -1,95 +1,95 @@
 # ninja log v5
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
-382	598	7309211680383843	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/startup_stm32f10x_md.o	8a8fdf7830447be
-5849	5862	7376428194008008	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
-5697	5822	7376428193559211	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
-2	5649	7376428190496592	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
-2	5593	7376432169774967	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
-5642	5767	7376432172850015	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
-5805	5818	7376432173399743	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/main.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/misc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	e68907b0edecf69a
-1	5626	7376434275926568	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	e68907b0edecf69a
-5677	5795	7376434278939578	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	ca7a12d6258c4fe6
-5820	5834	7376434279378412	D:/Firmware/Codici Olimpia/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	79336755f60d3cc8
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/main.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/misc.o	b4485f58bb58c9e0
+1	77	7434419092408217	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/startup_stm32f10x_md.o	311d886e4d7dff72
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	b4485f58bb58c9e0
+5797	5914	7471398138423359	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	9cf421a8aea45c3f
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	b4485f58bb58c9e0
+1	5738	7471398135287212	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	b4485f58bb58c9e0
+5943	5961	7471398138922045	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	e9174d34b40f7875
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/main.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/misc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	b4485f58bb58c9e0
+1	5657	7471398846428163	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	b4485f58bb58c9e0
+5705	5817	7471398849489963	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	9cf421a8aea45c3f
+5848	5860	7471398849968684	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	e9174d34b40f7875
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/EKF_Lib.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/FCAL_STORAGE.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/GUI_Layer.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/LSM9DS1.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/main.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/misc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_adc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_bkp.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_can.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_crc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dac.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dbgmcu.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_dma.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_exti.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_flash.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_fsmc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_gpio.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_i2c.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_it.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_iwdg.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_pwr.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rcc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_rtc.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_sdio.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_spi.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_tim.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_usart.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/stm32f10x_wwdg.o	b4485f58bb58c9e0
+4	6829	7471474066503648	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Obj/system_stm32f10x.o	b4485f58bb58c9e0
+6883	7156	7471474071239739	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/GettingStarted.out	9cf421a8aea45c3f
+7190	7278	7471474072498895	D:/Firmware/Olimpia Firmware original/Sensor MAIN/Flash Debug/Exe/HANDi_FOO.hex	e9174d34b40f7875
