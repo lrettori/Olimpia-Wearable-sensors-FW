@@ -512,6 +512,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
         (data_array[index -8] == 'a'))
     {
       scan_init();
+      
+      index = 0;
     }    
     // ------------------------------------------------------------------------
     // CONNECT ALL PERIPHERALS: at$cntn
@@ -527,6 +529,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
       C_3 = true;
       conn_init();
       scan_start();
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // CONNECT TO PERIPHERAL_0: at$cntn_0
@@ -539,7 +543,9 @@ void uart_event_handle(app_uart_evt_t * p_event)
     {
       C_0 = true;
       conn_init();
-      scan_start();    
+      scan_start();
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // CONNECT TO PERIPHERAL_1: at$cntn_1
@@ -552,7 +558,9 @@ void uart_event_handle(app_uart_evt_t * p_event)
     {
       C_1 = true;
       conn_init();
-      scan_start();    
+      scan_start();
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // CONNECT TO PERIPHERAL_2: at$cntn_2
@@ -565,7 +573,9 @@ void uart_event_handle(app_uart_evt_t * p_event)
     {
       C_2 = true;
       conn_init();
-      scan_start();    
+      scan_start();
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // CONNECT TO PERIPHERAL_3: at$cntn_3
@@ -578,7 +588,9 @@ void uart_event_handle(app_uart_evt_t * p_event)
     {
       C_3 = true;
       conn_init();
-      scan_start();    
+      scan_start();
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // DISCONNECT TO ALL: at$dntn
@@ -610,6 +622,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
       {
         APP_ERROR_CHECK(err_code);
       }
+      
       index = 0;
     }
     // ------------------------------------------------------------------------
@@ -633,6 +646,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
         bsp_board_led_off(CENTRAL_CONNECTED_LED);
         bsp_board_led_off(CENTRAL_SCANNING_LED);
       }
+      
       index = 0;
     }
     // ------------------------------------------------------------------------
@@ -656,6 +670,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
         bsp_board_led_off(CENTRAL_CONNECTED_LED);
         bsp_board_led_off(CENTRAL_SCANNING_LED);
       }
+      
       index = 0;
     }
     // ------------------------------------------------------------------------
@@ -679,6 +694,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
         bsp_board_led_off(CENTRAL_CONNECTED_LED);
         bsp_board_led_off(CENTRAL_SCANNING_LED);
       }
+      
       index = 0;
     }
     // ------------------------------------------------------------------------
@@ -702,6 +718,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
         bsp_board_led_off(CENTRAL_CONNECTED_LED);
         bsp_board_led_off(CENTRAL_SCANNING_LED);
       }
+      
       index = 0;
     }
     // ------------------------------------------------------------------------
@@ -725,6 +742,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
           }
         } while (ret_val == NRF_ERROR_BUSY);
       }
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // SEND BYTE TO PERIPH_0: at$sdbt_0
@@ -744,6 +763,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
           APP_ERROR_CHECK(ret_val);
         }
       } while (ret_val == NRF_ERROR_BUSY);
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // SEND BYTE TO PERIPH_1: at$sdbt_1
@@ -763,6 +784,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
           APP_ERROR_CHECK(ret_val);
         }
       } while (ret_val == NRF_ERROR_BUSY);
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // SEND BYTE TO PERIPH_2: at$sdbt_2
@@ -782,6 +805,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
           APP_ERROR_CHECK(ret_val);
         }
       } while (ret_val == NRF_ERROR_BUSY);
+      
+      index = 0;
     }
     // ------------------------------------------------------------------------
     // SEND BYTE TO PERIPH_3: at$sdbt_3
@@ -801,6 +826,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
           APP_ERROR_CHECK(ret_val);
         }
       } while (ret_val == NRF_ERROR_BUSY);
+      
+      index = 0;
     }
     
     // START ACQUISITION: empty all the buffers and initialize the indices
@@ -832,6 +859,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
       K_1 = 0;
       K_2 = 0;
       K_3 = 0;
+      
+      index = 0;
     }
     
     else {

@@ -8,3 +8,5 @@ Never released version, fixed with second release (which is actually the first u
 Second release:
 Released in may 2024. Fixed the issues of the first version. One last non-solved (but managed) bug regarding the serial communication between microcontroller and BLE module of sensor nodes.
 
+Third release:
+October 2024. Introduced a sinchronization message sent from the PC to the dongle. First release revealed pre-existing bug, solved with the commit pushed on oct 17th.

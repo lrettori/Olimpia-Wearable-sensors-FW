@@ -1,218 +1,150 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  30/Aug/2024  14:32:46
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  17/Oct/2024  12:53:40
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.out
 #    Map file     =
-#        D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.map
 #    Command line =
-#        -f "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        -f "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.out.rsp"
-#        ("D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        ("D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_button.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_error.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_error_handler_iar.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_error_weak.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_fifo.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_scheduler.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_timer2.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_uart_fifo.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\app_util_platform.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\ble_advdata.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\ble_advertising.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\ble_conn_state.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\ble_db_discovery.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services\ble_lbs_c.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services\ble_mic_c.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\ble_srv_common.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None\boards.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board
-#        Support\bsp.o" "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        Support\bsp.o" "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board
-#        Support\bsp_btn_ble.o" "D:\Firmware\Olimpia Firmware varie\Olimpia
-#        Firmware clone2\Olimpia-Wearable-sensors-FW\Central
+#        Support\bsp_btn_ble.o" "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\drv_rtc.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\hardfault_implementation.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None\iar_startup_nrf52.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Application\main.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_assert.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atfifo.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atflags.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_atomic.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_balloc.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\nrf_ble_gatt.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\nrf_ble_gq.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE\nrf_ble_scan.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrf_drv_clock.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrf_drv_uart.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_fprintf.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_fprintf_format.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_backend_rtt.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_backend_serial.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_backend_uart.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_default_backends.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_frontend.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log\nrf_log_str_formatter.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_memobj.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_pwr_mgmt.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_queue.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_ringbuf.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh_ble.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice\nrf_sdh_soc.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_section_iter.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_sortlist.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\nrf_strerror.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_atomic.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_clock.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_gpiote.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_prs.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_uart.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers\nrfx_uarte.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries\retarget.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT_printf.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT\SEGGER_RTT_Syscalls_IAR.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None\system_nrf52.o"
-#        "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\UTF8\UTF16
 #        converter\utf.o" --redirect _Printf=_PrintfFull --redirect
 #        _Scanf=_ScanfFull --no_out_extension -o "D:\Firmware\Olimpia Firmware
-#        varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central
+#        original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.out"
-#        --map "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        --map "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\ble_app_multilink_central_pca10040_s132.map"
-#        --config "D:\Firmware\Olimpia Firmware varie\Olimpia Firmware
-#        clone2\Olimpia-Wearable-sensors-FW\Central
+#        --config "D:\Firmware\Olimpia Firmware original\Central
 #        BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\ble_app_multilink_central_iar_nRF5x.icf"
 #        --warnings_are_errors --entry __iar_program_start --inline --vfe
 #        --text_out locale)
@@ -605,29 +537,29 @@ command line/config:
     -----------------------------------------------------
     Total:
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Application: [1]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Application: [1]
     main.o                        3'396      575   26'696
     -----------------------------------------------------
     Total:                        3'396      575   26'696
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board Support: [2]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board Support: [2]
     bsp.o                           638        2      128
     bsp_btn_ble.o                   212        8        8
     -----------------------------------------------------
     Total:                          850       10      136
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None: [3]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None: [3]
     boards.o                        284
     iar_startup_nrf52.o             610
     system_nrf52.o                  588                 4
     -----------------------------------------------------
     Total:                        1'482                 4
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\UTF8\UTF16 converter: [4]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\UTF8\UTF16 converter: [4]
     -----------------------------------------------------
     Total:
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE: [5]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE: [5]
     ble_advdata.o                   158
     ble_conn_state.o                384        8      124
     ble_db_discovery.o            1'724      380       40
@@ -637,12 +569,12 @@ D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sens
     -----------------------------------------------------
     Total:                        4'890      892      164
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services: [6]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services: [6]
     ble_mic_c.o                     576       20
     -----------------------------------------------------
     Total:                          576       20
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers: [7]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers: [7]
     nrf_drv_clock.o                 380       32       20
     nrf_drv_uart.o                  140                12
     nrfx_clock.o                    256       16        8
@@ -653,7 +585,7 @@ D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sens
     -----------------------------------------------------
     Total:                        3'976      108      220
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries: [8]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries: [8]
     app_button.o                     68       21       72
     app_error.o                      30
     app_error_weak.o                104       28
@@ -677,7 +609,7 @@ D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sens
     -----------------------------------------------------
     Total:                        5'288    1'473      320
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log: [9]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log: [9]
     nrf_log_backend_rtt.o           136       12       65
     nrf_log_backend_serial.o        204
     nrf_log_default_backends.o                32        8
@@ -686,12 +618,12 @@ D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sens
     -----------------------------------------------------
     Total:                        2'212      165    1'393
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT: [10]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT: [10]
     SEGGER_RTT.o                    268       14      668
     -----------------------------------------------------
     Total:                          268       14      668
 
-D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice: [11]
+D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice: [11]
     nrf_sdh.o                       428       64        3
     nrf_sdh_ble.o                   540      620        1
     nrf_sdh_soc.o                    68       44
@@ -832,7 +764,7 @@ app_fifo_get               0x2'a5b7    0x16  Code  Gb  app_fifo.o [8]
 app_fifo_init              0x2'a577    0x26  Code  Gb  app_fifo.o [8]
 app_fifo_put               0x2'a59d    0x1a  Code  Gb  app_fifo.o [8]
 app_timer_create           0x2'88fd    0x22  Code  Gb  app_timer2.o [8]
-app_timer_handler          0x2'6cbb    0xfc  Code  Lc  main.o [1]
+app_timer_handler          0x2'6cb9    0xfc  Code  Lc  main.o [1]
 app_timer_init             0x2'88b1    0x4c  Code  Gb  app_timer2.o [8]
 app_timer_start            0x2'891f    0x54  Code  Gb  app_timer2.o [8]
 app_timer_stop             0x2'897b    0x34  Code  Gb  app_timer2.o [8]
@@ -857,10 +789,10 @@ ble_db_discovery_on_ble_evt
 ble_db_discovery_start     0x2'7f9b    0x96  Code  Gb  ble_db_discovery.o [5]
 ble_evt_handler            0x2'833b    0xf0  Code  Lc  ble_conn_state.o [5]
 ble_evt_handler            0x2'7b87    0x6e  Code  Lc  bsp_btn_ble.o [2]
-ble_evt_handler            0x2'69bb   0x174  Code  Lc  main.o [1]
+ble_evt_handler            0x2'69b9   0x174  Code  Lc  main.o [1]
 ble_evt_handler{1}{2}{41}::phys
                            0x2'6f28     0x2  Data  Lc  main.o [1]
-ble_mic_c_evt_handler      0x2'681b   0x172  Code  Lc  main.o [1]
+ble_mic_c_evt_handler      0x2'6819   0x172  Code  Lc  main.o [1]
 ble_mic_c_handles_assign
                            0x2'7665    0x22  Code  Gb  ble_mic_c.o [6]
 ble_mic_c_init             0x2'74d1    0x5a  Code  Gb  ble_mic_c.o [6]
@@ -1432,11 +1364,11 @@ sdh_state_observers1$$Limit
                                 0x0           --   Gb  - Linker created -
 sdh_state_observers_array
                            0x2'cd50    0x10  Data  Lc  nrf_sdh.o [11]
-sendDataOverUart           0x2'6b2f   0x18c  Code  Gb  main.o [1]
+sendDataOverUart           0x2'6b2d   0x18c  Code  Gb  main.o [1]
 sens_n                  0x2000'51d8     0x4  Data  Gb  main.o [1]
 serial_tx                  0x2'c481    0x52  Code  Lc  nrf_log_backend_rtt.o [9]
 severity_names          0x2000'8b78    0x14  Data  Lc  nrf_log_str_formatter.o [9]
-shutdown_handler           0x2'699b    0x20  Code  Lc  main.o [1]
+shutdown_handler           0x2'6999    0x20  Code  Lc  main.o [1]
 shutdown_handler_handler_function
                            0x2'cf10     0x4  Data  Lc  main.o [1]
 soc_evt_handler            0x2'85ad     0xc  Code  Lc  nrf_drv_clock.o [7]
@@ -1451,7 +1383,7 @@ tx_buffer               0x2000'8b54     0x1  Data  Lc  app_uart_fifo.o [8]
 tx_byte                    0x2'a1c9    0x20  Code  Lc  nrfx_uart.o [7]
 tx_done_event              0x2'a3d9    0x1e  Code  Lc  nrfx_uart.o [7]
 tx_done_event              0x2'9ec5    0x1e  Code  Lc  nrfx_uarte.o [7]
-uart_event_handle          0x2'6327   0x4ac  Code  Gb  main.o [1]
+uart_event_handle          0x2'6327   0x4aa  Code  Gb  main.o [1]
 uart_event_handle::data_array
                         0x2000'51dc    0x64  Data  Lc  main.o [1]
 uart_event_handle::index
@@ -1469,17 +1401,17 @@ unsigned_print::_aV2C      0x2'b810    0x10  Data  Lc  nrf_fprintf_format.o [8]
 wakeup_button_cfg          0x2'7af9    0x3a  Code  Lc  bsp.o [2]
 
 
-[1] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Application
-[2] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board Support
-[3] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None
-[4] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\UTF8\UTF16 converter
-[5] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE
-[6] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services
-[7] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers
-[8] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries
-[9] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log
-[10] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT
-[11] = D:\Firmware\Olimpia Firmware varie\Olimpia Firmware clone2\Olimpia-Wearable-sensors-FW\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice
+[1] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Application
+[2] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\Board Support
+[3] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\None
+[4] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\UTF8\UTF16 converter
+[5] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE
+[6] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_BLE_Services
+[7] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Drivers
+[8] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Libraries
+[9] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Log
+[10] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_Segger_RTT
+[11] = D:\Firmware\Olimpia Firmware original\Central BLE\examples\ble_central\ble_app_multilink_central_V2\pca10040\s132\iar\_build\nRF_SoftDevice
 [12] = dl7M_tlf.a
 [13] = m7M_tls.a
 [14] = rt7M_tl.a
